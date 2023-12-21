@@ -1,5 +1,4 @@
-import { Hero } from '@/components/main/Hero'
-import Image from 'next/image'
+import Hero from '@/components/main/Hero'
 
 export default function Home() {
   return (
