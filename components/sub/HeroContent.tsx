@@ -1,23 +1,20 @@
-"use client";
+'use client';
 
-import React from "react";
-import { motion } from "framer-motion";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
+import { SparklesIcon } from '@heroicons/react/24/solid';
+import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
+import { GithubIcon, Linkedin } from 'lucide-react';
+import { PiTelegramLogo } from 'react-icons/pi';
 
 const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
-    >
+      className="flex flex-row items-center justify-center px-20 mt-36 w-full z-[20]">
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         {/* <motion.div
           variants={slideInFromTop}
@@ -31,62 +28,54 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
-        >
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
           <div>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-8xl">Hello, I&apos;m{" "}</span>
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                "Judy",
-                1000,
-                "Web Developer",
-                1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[80px] mb-6">
+              Hello, I&apos;m{' '}
+            </p>
+            <p className="text-8xl h-[180px]">
+              <TypeAnimation
+                sequence={['Frontend Developer', 1000, 'Mobile Developer', 1000]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </p>
           </div>
 
-          <span>
+          {/* <span>
             Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              the best{" "}
+              {' '}
+              the best{' '}
             </span>
             project exprience
-          </span>
+          </span> */}
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
-        >
-          I&apos;m a creative Frontend & Mobile Developer with experience in Website, Mobile, and Software development. Check out my projects and skills.
+          className="text-3xl text-gray-400 my-5 max-w-[600px]">
+          Providing the best project exprience.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Hire Me
-        </motion.a>
+        <motion.div variants={slideInFromLeft(1)}>
+          <div className='flex items-center gap-10'>
+            <button className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
+              Hire Me
+            </button>
+            <span className="flex items-center gap-4">
+              <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
+              <Linkedin className="text-white w-10 h-10 cursor-pointer" />
+              <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
+            </span>
+          </div>
+        </motion.div>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
-          height={550}
-          width={550}
-        />
+        className="w-full h-full flex justify-center items-center">
+        <Image src="/mainIconsdark.svg" alt="work icons" height={600} width={600} />
       </motion.div>
     </motion.div>
   );

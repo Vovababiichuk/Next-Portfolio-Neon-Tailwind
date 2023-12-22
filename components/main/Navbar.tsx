@@ -1,4 +1,5 @@
 import { Socials } from "@/constants";
+import { Phone } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -37,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        {/* <div className="flex flex-row gap-5">
           {Socials.map((social) => (
             <a href={social.link} key={social.name}>
             <Image
@@ -49,6 +50,12 @@ const Navbar = () => {
             />
             </a>
           ))}
+        </div> */}
+        <div>
+          <span className="text-white text-[20px]">
+            <Phone className="inline-block mr-2" />
+            +38(068)0253147
+          </span>
         </div>
       </div>
     </div>
