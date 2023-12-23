@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Days_One } from 'next/font/google'
+import { Abril_Fatface, Archivo_Black, Audiowide, Black_Ops_One, Bungee, DM_Serif_Display, Days_One, Kanit, Konkhmer_Sleokchher, Lalezar, Lilita_One, Nunito_Sans, Paytone_One, Roboto_Slab, Rubik_Mono_One, Russo_One } from 'next/font/google'
 import './globals.css'
 import StarsCanvas from '@/components/main/StarBackground'
 import Navbar from '@/components/main/Navbar'

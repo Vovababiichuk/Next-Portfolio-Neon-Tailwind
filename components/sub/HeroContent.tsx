@@ -14,7 +14,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-36 w-full z-[20]">
+      className="flex flex-row items-center justify-center pl-20 mt-32 w-full z-[20]">
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         {/* <motion.div
           variants={slideInFromTop}
@@ -67,7 +67,7 @@ const HeroContent = () => {
               <a href='https://github.com/Vovababiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>
                 <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
               </a>
-              <a href='www.linkedin.com/in/frontend-volodymyr-code-pro' target='_blank' className='button-primary-icon button-primary-icon-active'>
+              <a href='https://www.linkedin.com/in/frontend-pro-volodymyr-059377298' target='_blank' className='button-primary-icon button-primary-icon-active'>
                 <Linkedin className="text-white w-10 h-10 cursor-pointer" />
               </a>
               <a href='https://t.me/volodymyrbabiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>
