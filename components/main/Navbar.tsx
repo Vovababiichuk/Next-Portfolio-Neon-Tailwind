@@ -53,8 +53,8 @@ const Navbar = () => {
         </div> */}
         <div>
           <span className="text-white text-[20px]">
-            <Phone className="inline-block mr-2" />
-            +38(068) 025 3147
+            <Phone size={20} className="inline-block mr-2" />
+            +38 (068) 025 3147
           </span>
         </div>
       </div>
