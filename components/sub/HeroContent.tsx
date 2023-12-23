@@ -63,11 +63,17 @@ const HeroContent = () => {
             <button className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
               Hire Me
             </button>
-            <span className="flex items-center gap-4">
-              <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
-              <Linkedin className="text-white w-10 h-10 cursor-pointer" />
-              <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
-            </span>
+            <div className="flex items-center gap-1">
+              <a href='https://github.com/Vovababiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>
+                <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
+              </a>
+              <a href='www.linkedin.com/in/frontend-volodymyr-code-pro' target='_blank' className='button-primary-icon button-primary-icon-active'>
+                <Linkedin className="text-white w-10 h-10 cursor-pointer" />
+              </a>
+              <a href='https://t.me/volodymyrbabiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>
+                <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>

@@ -14,8 +14,8 @@ const Navbar = () => {
           <Image
             src="/nick.svg"
             alt="logo"
-            width={270}
-            height={170}
+            width={300}
+            height={300}
             className="cursor-pointer hover:animate-slowspin"
           />
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         <div>
           <span className="text-white text-[20px]">
             <Phone className="inline-block mr-2" />
-            +38(068)0253147
+            +38(068) 025 3147
           </span>
         </div>
       </div>
