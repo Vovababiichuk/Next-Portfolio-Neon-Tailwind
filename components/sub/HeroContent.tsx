@@ -60,9 +60,9 @@ const HeroContent = () => {
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
           <div className='flex items-center gap-10'>
-            <button className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
-              Hire Me
-            </button>
+            <a href="https://drive.google.com/file/d/1RZPA7Y6L9tHf7JqETBdTUFjy5QbaYav5/view?usp=drive_link" target='_blank' className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
+              Resume
+            </a>
             <div className="flex items-center gap-1">
               <a href='https://github.com/Vovababiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>
                 <GithubIcon className="text-white w-10 h-10 cursor-pointer" />

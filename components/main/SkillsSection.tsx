@@ -6,14 +6,8 @@ import { slideInFromTop, slideInFromLeft } from '@/utils/motion';
 import Image from 'next/image';
 import { SparklesIcon } from '@heroicons/react/24/solid';
 
-import {
-  Backend_skill,
-  Frontend_skill,
-  Full_stack,
-  Other_skill,
-  Skill_data,
-} from "@/constants";
-import SkillDataProvider from "../sub/SkillDataProvider";
+import { Skill_frontend, Skill_backend, Skill_ui, Skill_fullstack, Skill_other } from '@/constants';
+import SkillDataProvider from '../sub/SkillDataProvider';
 import { ChevronsDown } from 'lucide-react';
 
 const Skillssection = () => {
@@ -27,8 +21,8 @@ const Skillssection = () => {
             <motion.div
               variants={slideInFromTop}
               className="Welcome-box-title opacity-[0.9] mb-10 px-[100px]">
-              <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
-              <h1 className="Welcome-text text-[66px] mb-2">My Skills</h1>
+              <SparklesIcon className="text-[#b49bff] mr-[10px] h-12 w-12" />
+              <h1 className="Welcome-text text-[62px] mb-2">My Skills</h1>
             </motion.div>
             <motion.div
               variants={slideInFromLeft(0.5)}
@@ -42,12 +36,9 @@ const Skillssection = () => {
                 modern
               </span>{' '}
               technologies
-
-
-              <div className='absolute top-28 left-[45%]  animate-pulse'>
+              <div className="absolute top-28 left-[45%]  animate-pulse">
                 <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
               </div>
-
             </motion.div>
           </div>
         </div>
@@ -66,12 +57,20 @@ const Skillssection = () => {
       </div>
 
       <div
-        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-100px]"
+        className="m-auto flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-100px]"
         style={{ transform: 'scale(0.9' }}>
         {/* <SkillText /> */}
 
+        <motion.div
+          variants={slideInFromTop}
+          className="text-[40px] font-medium text-center text-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Frontend
+          </span>
+        </motion.div>
+
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Skill_data.map((image, index) => (
+          {Skill_frontend.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -82,8 +81,56 @@ const Skillssection = () => {
           ))}
         </div>
 
+        <motion.div
+          variants={slideInFromTop}
+          className="text-[40px] font-medium text-center text-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Backend
+          </span>
+        </motion.div>
+
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Frontend_skill.map((image, index) => (
+          {Skill_backend.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+
+        <motion.div
+          variants={slideInFromTop}
+          className="text-[40px] font-medium text-center text-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            UI Libraries
+          </span>
+        </motion.div>
+
+        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+          {Skill_ui.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+
+        <motion.div
+          variants={slideInFromTop}
+          className="text-[40px] font-medium text-center text-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Fullstack
+          </span>
+        </motion.div>
+
+        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+          {Skill_fullstack.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -94,29 +141,7 @@ const Skillssection = () => {
           ))}
         </div>
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Backend_skill.map((image, index) => (
-            <SkillDataProvider
-              key={index}
-              src={image.Image}
-              width={image.width}
-              height={image.height}
-              index={index}
-            />
-          ))}
-        </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Full_stack.map((image, index) => (
-            <SkillDataProvider
-              key={index}
-              src={image.Image}
-              width={image.width}
-              height={image.height}
-              index={index}
-            />
-          ))}
-        </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Other_skill.map((image, index) => (
+          {Skill_other.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -141,7 +166,6 @@ const Skillssection = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };

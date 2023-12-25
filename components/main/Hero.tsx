@@ -1,5 +1,6 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -7,10 +8,10 @@ const Hero = () => {
       <video
         autoPlay
         muted
-        loop
-        className="rotate-180 absolute top-[-700px] h-full w-full left-0 right-0 z-[1] object-cover "
+        // loop
+        className=" absolute top-[-695px] h-full w-full left-0 right-0 z-[1] object-cover"
       >
-        <source src="/bg-video2.mp4" type="video/mp4" />
+        <source src="/video-header.mp4" type="video/mp4" />
       </video>
       <HeroContent />
     </div>
