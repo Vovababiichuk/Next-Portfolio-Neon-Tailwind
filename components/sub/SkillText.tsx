@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
+import { slideInFromLeft, slideInFromTop } from '@/utils/motion';
 import { SparklesIcon } from '@heroicons/react/24/solid';
 
 const SkillText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
+    <div className="w-full h-auto flex flex-col items-center justify-center mt-10">
       <motion.div
         variants={slideInFromTop}
         className="Welcome-box-title h-[58px] opacity-[0.9] mb-10 py-4 px-24">
