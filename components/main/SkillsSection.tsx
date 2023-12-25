@@ -59,16 +59,6 @@ const Skillssection = () => {
       <div
         className="m-auto flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-100px]"
         style={{ transform: 'scale(0.9' }}>
-        {/* <SkillText /> */}
-
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-white">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Frontend
-          </span>
-        </motion.div>
-
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Skill_frontend.map((image, index) => (
             <SkillDataProvider
@@ -80,14 +70,6 @@ const Skillssection = () => {
             />
           ))}
         </div>
-
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-white">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Backend
-          </span>
-        </motion.div>
 
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Skill_backend.map((image, index) => (
@@ -101,14 +83,6 @@ const Skillssection = () => {
           ))}
         </div>
 
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-white">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            UI Libraries
-          </span>
-        </motion.div>
-
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Skill_ui.map((image, index) => (
             <SkillDataProvider
@@ -121,14 +95,6 @@ const Skillssection = () => {
           ))}
         </div>
 
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-white">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Fullstack
-          </span>
-        </motion.div>
-
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Skill_fullstack.map((image, index) => (
             <SkillDataProvider
@@ -140,7 +106,8 @@ const Skillssection = () => {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+
+        <div className="flex flex-row justify-around flex-wrap mt-8 gap-6 items-center">
           {Skill_other.map((image, index) => (
             <SkillDataProvider
               key={index}

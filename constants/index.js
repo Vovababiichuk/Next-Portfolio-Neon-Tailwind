@@ -147,6 +147,12 @@ export const Skill_ui = [
     width: 60,
     height: 60,
   },
+  {
+    skill_name: "Shadcn UI",
+    Image: "/shadcn.png",
+    width: 60,
+    height: 60,
+  },
 
 ];
 
@@ -154,8 +160,8 @@ export const Skill_fullstack = [
   {
     skill_name: "React Native",
     Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Tauri",
@@ -177,8 +183,14 @@ export const Skill_other = [
   {
     skill_name: "Figma",
     Image: "/figma.png",
-    width: 50,
-    height: 50,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Photo Shop",
+    Image: "/ps.png",
+    width: 60,
+    height: 60,
   },
 ];
 
