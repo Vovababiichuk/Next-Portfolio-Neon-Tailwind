@@ -126,28 +126,6 @@
 }
 
 
-/* Додайте ці стилі в ваш CSS файл або включіть їх вже існуючий файл стилів */
-
-.tooltip {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 100;
-  display: none; /* Початково ховаємо вспливаюче вікно */
-}
-
-.tooltip.active {
-  display: block; /* Показуємо вспливаюче вікно при активності */
-}
-
-
-
-
 html {
   scroll-behavior: smooth;
 }
