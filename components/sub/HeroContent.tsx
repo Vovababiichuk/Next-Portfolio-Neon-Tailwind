@@ -6,7 +6,7 @@ import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motio
 import { SparklesIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-import { GithubIcon, Linkedin } from 'lucide-react';
+import { ExternalLink, GithubIcon, Linkedin } from 'lucide-react';
 import { PiTelegramLogo } from 'react-icons/pi';
 
 const HeroContent = () => {
@@ -61,7 +61,12 @@ const HeroContent = () => {
         <motion.div variants={slideInFromLeft(1)}>
           <div className='flex items-center gap-10'>
             <a href="https://drive.google.com/file/d/1nYn6N9FcxaJZHT8dgfAJ94hA2gVoasjr/view?usp=drive_link" target='_blank' className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
-              Resume
+              <div className='flex items-center justify-center gap-2'>
+                <span>Resume</span>
+                <span>
+                  <ExternalLink />
+                </span>
+              </div>
             </a>
             <div className="flex items-center gap-1">
               <a href='https://github.com/Vovababiichuk' target='_blank' className='button-primary-icon button-primary-icon-active'>

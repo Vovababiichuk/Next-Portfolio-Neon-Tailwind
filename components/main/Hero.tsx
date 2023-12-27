@@ -1,6 +1,5 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
-import Image from "next/image";
 
 const Hero = () => {
   return (

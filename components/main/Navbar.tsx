@@ -1,4 +1,3 @@
-import { Socials } from "@/constants";
 import { Phone } from "lucide-react";
 import Image from "next/image";
 import React from "react";
