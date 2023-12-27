@@ -2,8 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { SparklesIcon } from '@heroicons/react/24/solid';
+import { slideInFromLeft, slideInFromRight } from '@/utils/motion';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { ExternalLink, GithubIcon, Linkedin } from 'lucide-react';
@@ -56,7 +55,7 @@ const HeroContent = () => {
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-3xl text-gray-400 my-5 max-w-[600px]">
-          Providing the best project exprience.
+          Providing the best project exprience
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
           <div className='flex items-center gap-10'>
