@@ -13,7 +13,7 @@ const AboutTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
       Building{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
@@ -34,7 +34,7 @@ const SkillsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
       Making{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
@@ -55,7 +55,7 @@ const ProjectsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
       Developing{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
