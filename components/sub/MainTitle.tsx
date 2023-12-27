@@ -62,9 +62,9 @@ const ProjectsTitle = () => {
       </span>{' '}
       with{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-        any level of complexity
+        any level
       </span>{' '}
-      for business
+        of complexity
       <div className="absolute top-28 left-[45%]  animate-pulse">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
       </div>
