@@ -2,7 +2,7 @@ import AboutSection from "@/components/main/AboutSection";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import SkillsSection from "@/components/main/SkillsSection";
-import AboutTabs from "@/components/sub/AboutTabs";
+import AboutTabs from "@/components/main/AboutTabsSection";
 
 export default function Home() {
   return (

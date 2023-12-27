@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { slideInFromTop } from '@/utils/motion';
-import AboutTabs from './AboutTabs';
+import AboutTabs from '../main/AboutTabsSection';
 
 const AboutContent = () => {
   return (

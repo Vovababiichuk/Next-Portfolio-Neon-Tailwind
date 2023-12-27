@@ -11,11 +11,8 @@ const AboutSection = () => {
       <MainTitle title="About Me" subTitleType="about" />
 
       <div className='relative'>
-        <div className='mb-14'>
+        <div>
           <AboutContent />
-        </div>
-        <div className='absolute top-[300px] left-[37%] m-auto text-center z-50'>
-          {/* <AboutTabs /> */}
         </div>
       </div>
     </section>
