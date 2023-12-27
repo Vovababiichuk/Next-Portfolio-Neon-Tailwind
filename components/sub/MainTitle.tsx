@@ -6,12 +6,75 @@ import { SparklesIcon } from '@heroicons/react/24/solid';
 
 type IMainTitle = {
   title: string;
-}
+  subTitleType: 'about' | 'skills' | 'projects';
+};
 
-const MainTitle = ({ title }: IMainTitle) => {
+const AboutTitle = () => {
   return (
-    <div
-      className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
+    <motion.div
+      variants={slideInFromLeft(0.5)}
+      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      Building{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        apps
+      </span>{' '}
+      with{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        creative
+      </span>{' '}
+      solutions
+      <div className="absolute top-28 left-[45%]  animate-pulse">
+        <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
+      </div>
+    </motion.div>
+  );
+};
+
+const SkillsTitle = () => {
+  return (
+    <motion.div
+      variants={slideInFromLeft(0.5)}
+      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      Making{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        apps
+      </span>{' '}
+      with{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        modern
+      </span>{' '}
+      technologies
+      <div className="absolute top-28 left-[45%]  animate-pulse">
+        <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
+      </div>
+    </motion.div>
+  );
+};
+
+const ProjectsTitle = () => {
+  return (
+    <motion.div
+      variants={slideInFromLeft(0.5)}
+      className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      Developing{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        apps
+      </span>{' '}
+      with{' '}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+        any level of complexity
+      </span>{' '}
+      for business
+      <div className="absolute top-28 left-[45%]  animate-pulse">
+        <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
+      </div>
+    </motion.div>
+  );
+};
+
+const MainTitle = ({ title, subTitleType }: IMainTitle) => {
+  return (
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="w-full h-auto flex flex-col items-center justify-center mt-10">
           <motion.div
@@ -20,22 +83,9 @@ const MainTitle = ({ title }: IMainTitle) => {
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-12 w-12" />
             <h1 className="Welcome-text text-[62px] mb-2">{title}</h1>
           </motion.div>
-          <motion.div
-            variants={slideInFromLeft(0.5)}
-            className="mt-10 text-[46px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
-            Making{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-              apps
-            </span>{' '}
-            with{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-              modern
-            </span>{' '}
-            technologies
-            <div className="absolute top-28 left-[45%]  animate-pulse">
-              <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
-            </div>
-          </motion.div>
+          {subTitleType === 'about' && <AboutTitle />}
+          {subTitleType === 'skills' && <SkillsTitle />}
+          {subTitleType === 'projects' && <ProjectsTitle />}
         </div>
       </div>
 

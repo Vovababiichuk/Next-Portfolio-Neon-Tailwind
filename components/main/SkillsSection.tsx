@@ -9,7 +9,7 @@ const SkillsSection = () => {
   return (
     <section id='skills'>
 
-      <MainTitle title='My Skills' />
+      <MainTitle title='My Skills' subTitleType='skills' />
 
       <div
         className="m-auto flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-100px]"

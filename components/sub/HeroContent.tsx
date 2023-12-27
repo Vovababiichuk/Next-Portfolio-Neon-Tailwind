@@ -60,7 +60,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
           <div className='flex items-center gap-10'>
-            <a href="https://drive.google.com/file/d/1RZPA7Y6L9tHf7JqETBdTUFjy5QbaYav5/view?usp=drive_link" target='_blank' className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
+            <a href="https://drive.google.com/file/d/1nYn6N9FcxaJZHT8dgfAJ94hA2gVoasjr/view?usp=drive_link" target='_blank' className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl">
               Resume
             </a>
             <div className="flex items-center gap-1">
