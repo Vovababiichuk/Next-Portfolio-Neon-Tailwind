@@ -11,12 +11,12 @@ const AboutTabsSection = () => {
       <Tabs defaultValue="account" className="w-[800px] m-auto">
         <TabsList className="bg-transparent bg-[#1e1741] bg-opacity-50 border border-[1px] border-[#2f2158] mb-6 py-[30px] px-2 ">
           <TabsTrigger className="uppercase text-2xl" value="account">
-            <ArrowBigRight size={32}/>
+            <ArrowBigRight size={36}/>
           </TabsTrigger>
-          <TabsTrigger className="uppercase text-2xl" value="experience">
+          <TabsTrigger className="text-3xl" value="experience">
             Experience
           </TabsTrigger>
-          <TabsTrigger className="uppercase text-2xl" value="password">
+          <TabsTrigger className="text-[28px]" value="password">
             Certificates
           </TabsTrigger>
         </TabsList>
