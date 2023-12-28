@@ -8,8 +8,8 @@ import AboutTabs from '../main/AboutTabsSection';
 const AboutContent = () => {
   return (
     <div className="relative h-full overflow-hidden mt-[-100px]">
-      <p className="text-white text-center w-full max-w-[800px] m-auto text-2xl leading-9">
-        I am a{' '}
+      <p className="text-white text-center w-full max-w-[900px] m-auto text-2xl leading-9">
+        I&apos;m a{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           creative Frontend & Mobile
         </span>{' '}
@@ -37,7 +37,9 @@ const AboutContent = () => {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           Express, PostgreSQL
         </span>{' '}
-        databases. I am ready to take on new challenges and bring my creativity to your project.
+        databases. 
+        <br />I&apos;m{' '} ready to take on new challenges and bring my creativity to
+        your project.
       </p>
     </div>
   );
