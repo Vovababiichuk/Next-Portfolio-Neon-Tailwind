@@ -23,7 +23,7 @@ const AboutContent = () => {
         </span>{' '}
         for styling. I am also actively learning{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          mobile development
+          Mobile Development
         </span>{' '}
         using{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -35,9 +35,9 @@ const AboutContent = () => {
         </span>
         . I also have experience with the{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          Express
+          Express, PostgreSQL
         </span>{' '}
-        database. I am ready to take on new challenges and bring my creativity to your project.
+        databases. I am ready to take on new challenges and bring my creativity to your project.
       </p>
     </div>
   );
