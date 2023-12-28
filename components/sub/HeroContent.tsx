@@ -58,9 +58,12 @@ const HeroContent = () => {
           Providing the best project exprience
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
-          <div className='flex items-center gap-10'>
-            <a href="https://drive.google.com/file/d/1nYn6N9FcxaJZHT8dgfAJ94hA2gVoasjr/view?usp=drive_link" target='_blank' className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl transition-all duration-300 ease-in-out">
-              <div className='flex items-center justify-center gap-2'>
+          <div className="flex items-center gap-10">
+            <a
+              href="https://drive.google.com/file/d/1nYn6N9FcxaJZHT8dgfAJ94hA2gVoasjr/view?usp=drive_link"
+              target="_blank"
+              className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl transition-all duration-300 ease-in-out">
+              <div className="flex items-center justify-center gap-2">
                 <span>Resume</span>
                 <span>
                   <ExternalLink />
@@ -68,13 +71,22 @@ const HeroContent = () => {
               </div>
             </a>
             <div className="flex items-center gap-2">
-              <a href='https://github.com/Vovababiichuk' target='_blank' className='bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out'>
+              <a
+                href="https://github.com/Vovababiichuk"
+                target="_blank"
+                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
               </a>
-              <a href='https://www.linkedin.com/in/frontend-pro-volodymyr-059377298' target='_blank' className='bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out'>
+              <a
+                href="https://www.linkedin.com/in/frontend-pro-volodymyr-059377298"
+                target="_blank"
+                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <Linkedin className="text-white w-10 h-10 cursor-pointer" />
               </a>
-              <a href='https://t.me/volodymyrbabiichuk' target='_blank' className='bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out'>
+              <a
+                href="https://t.me/volodymyrbabiichuk"
+                target="_blank"
+                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
               </a>
             </div>

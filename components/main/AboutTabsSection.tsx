@@ -21,14 +21,15 @@ const AboutTabsSection = () => {
             Certificates
           </TabsTrigger>
         </TabsList>
-        <TabsContent className="text-white w-[760px] m-auto mt-[10px]" value="account">
+        <TabsContent className="text-white w-[560px] m-auto mt-[10px]" value="account">
           {/* <Image className='rounded-lg opacity-70' src="/developer.gif" alt="about me" width={600} height={600} /> */}
           <Image
             className="rounded-lg opacity-90"
-            src="/about-gif.gif"
-            alt="about me"
-            width={760}
-            height={760}
+            // src="/about-gif.gif"
+            src="/my-photo/my-photo.jpg"
+            alt="my photo"
+            width={560}
+            height={560}
           />
         </TabsContent>
         <TabsContent className="text-white" value="experience">
