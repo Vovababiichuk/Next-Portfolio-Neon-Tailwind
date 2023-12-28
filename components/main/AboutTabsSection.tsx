@@ -31,7 +31,7 @@ const AboutTabsSection = () => {
             height={760}
           />
         </TabsContent>
-        <TabsContent className="text-white w-[400px] m-auto" value="experience">
+        <TabsContent className="text-white" value="experience">
           <AboutAccordion />
         </TabsContent>
         <TabsContent className="text-white" value="password">
