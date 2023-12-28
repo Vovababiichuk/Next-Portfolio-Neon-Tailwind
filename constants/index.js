@@ -91,6 +91,18 @@ export const Socials = [
 
 export const Skill_backend = [
   {
+    skill_name: "Git",
+    Image: "/git.png",
+    width: 85,
+    height: 85,
+  },
+  {
+    skill_name: "Git Hub",
+    Image: "/git-hub.svg",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Express js",
     Image: "/express.png",
     width: 80,
