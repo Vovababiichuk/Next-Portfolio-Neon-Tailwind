@@ -46,7 +46,7 @@ const SkillDataProvider = ({ src, width, height, index, skill_name }: Props) => 
               alt="skill image"
             />
           </TooltipTrigger>
-          <TooltipContent className="bg-transparent bg-[#1e1741] bg-opacity-50 border border-[1px] border-[#2f2158]">
+          <TooltipContent className="bg-transparent bg-[#1e1741] bg-opacity-50 border border-[1px] border-[#2f2158] mb-1">
             <p className='text-[#b49bff]'>{skill_name}</p>
           </TooltipContent>
         </Tooltip>
