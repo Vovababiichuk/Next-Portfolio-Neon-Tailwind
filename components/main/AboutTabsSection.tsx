@@ -1,9 +1,11 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 import React from 'react';
-import AboutAccordion from '../sub/AboutAccordion';
+import AboutAccordion from '../sub/AboutAccordionExperience';
 import { ArrowBigRight } from 'lucide-react';
 import Image from 'next/image';
+import AboutAccordionExperience from '../sub/AboutAccordionExperience';
+import AboutAccordionEducation from '../sub/AboutAccordionEducation';
 // import AboutCarusel from '../sub/AboutCarusel';
 
 const AboutTabsSection = () => {
@@ -17,23 +19,29 @@ const AboutTabsSection = () => {
           <TabsTrigger className="text-[28px]" value="experience">
             Experience
           </TabsTrigger>
+          <TabsTrigger className="text-[28px]" value="education">
+            Education
+          </TabsTrigger>
           <TabsTrigger className="text-[28px]" value="password">
             Certificates
           </TabsTrigger>
         </TabsList>
-        <TabsContent className="text-white w-[560px] m-auto mt-[10px]" value="account">
+        <TabsContent className="text-white w-[700px] m-auto mt-[10px]" value="account">
           {/* <Image className='rounded-lg opacity-70' src="/developer.gif" alt="about me" width={600} height={600} /> */}
           <Image
             className="rounded-lg opacity-90"
-            // src="/about-gif.gif"
-            src="/my-photo/my-photo.jpg"
+            src="/about-gif.gif"
+            // src="/my-photo/my-photo.jpg"
             alt="my photo"
-            width={560}
-            height={560}
+            width={700}
+            height={700}
           />
         </TabsContent>
         <TabsContent className="text-white" value="experience">
-          <AboutAccordion />
+          <AboutAccordionExperience />
+        </TabsContent>
+        <TabsContent className="text-white" value="education">
+          <AboutAccordionEducation />
         </TabsContent>
         <TabsContent className="text-white" value="password">
           {/* <AboutCarusel /> */}
