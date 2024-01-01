@@ -6,7 +6,7 @@ import MainTitle from '../sub/MainTitle';
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className='mt-[-80px]'>
       <MainTitle title='My Projects' subTitleType='projects' />
 
       {/* <div className="flex flex-col items-center justify-center py-20">
