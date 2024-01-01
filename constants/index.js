@@ -189,6 +189,12 @@ export const Skill_ui = [
     width: 72,
     height: 72,
   },
+  {
+    skill_name: "Vite",
+    Image: "/vite.png",
+    width: 85,
+    height: 85,
+  },
 ];
 
 export const Skill_fullstack = [
