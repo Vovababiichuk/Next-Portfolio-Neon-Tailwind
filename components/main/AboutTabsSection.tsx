@@ -4,7 +4,7 @@ import React from 'react';
 import AboutAccordion from '../sub/AboutAccordion';
 import { ArrowBigRight } from 'lucide-react';
 import Image from 'next/image';
-import AboutCarusel from '../sub/AboutCarusel';
+// import AboutCarusel from '../sub/AboutCarusel';
 
 const AboutTabsSection = () => {
   return (
@@ -36,7 +36,7 @@ const AboutTabsSection = () => {
           <AboutAccordion />
         </TabsContent>
         <TabsContent className="text-white" value="password">
-          <AboutCarusel />
+          {/* <AboutCarusel /> */}
         </TabsContent>
       </Tabs>
       ;

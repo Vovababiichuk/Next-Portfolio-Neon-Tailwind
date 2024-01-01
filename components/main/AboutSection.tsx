@@ -12,6 +12,7 @@ const AboutSection = () => {
 
       <div className='relative'>
         <div>
+
           <AboutContent />
         </div>
       </div>
