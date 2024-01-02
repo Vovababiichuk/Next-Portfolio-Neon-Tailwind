@@ -22,9 +22,9 @@ const AboutTabsSection = () => {
           <TabsTrigger className="text-[28px]" value="education">
             Education
           </TabsTrigger>
-          <TabsTrigger className="text-[28px]" value="password">
+          {/* <TabsTrigger className="text-[28px]" value="password">
             Certificates
-          </TabsTrigger>
+          </TabsTrigger> */}
         </TabsList>
         <TabsContent className="text-white w-[700px] m-auto mt-[10px]" value="account">
           {/* <Image className='rounded-lg opacity-70' src="/developer.gif" alt="about me" width={600} height={600} /> */}

@@ -16,9 +16,15 @@ const AboutAccordionEducation = () => {
             (2023-2024) - IT School
           </AccordionTrigger>
           <AccordionContent>
-            <p className="leading-7 font-sans text-[19px] mb-4">
-              Profession <span className="text-yellow-200">Fullstack Developer</span> from scratch
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
+              Profession <span className="text-[#00ffffff]">Fullstack Developer</span> from scratch
               to employment
+            </p>
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
+              Developer who combines knowledge of{' '}
+              <span className="text-[#00ffffff]">Front-end and Back-end</span> developers. Such
+              specialists can create any <span className="text-[#00ffffff]">website, mobile or PC application</span> from scratch. And they
+              occupy the first place in demand in the market
             </p>
             <a
               className="py-1 px-4 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
@@ -34,7 +40,7 @@ const AboutAccordionEducation = () => {
           </AccordionTrigger>
           <AccordionContent>
             <p className="leading-7 font-sans text-[19px] mb-4">
-              Course <span className="text-yellow-200">Website Layout</span> from 0 to 1
+              Course <span className="text-[#00ffffff]">Website Layout</span> from 0 to 1
             </p>
             <a
               className="py-1 px-4 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
@@ -51,7 +57,7 @@ const AboutAccordionEducation = () => {
           <AccordionContent>
             <p className="leading-7 font-sans text-[19px] mb-4">
               Vinnitsa National Agrarian University (Specialist; Management of organizations) -{' '}
-              <span className="text-yellow-200">Diploma with honors.{' '}</span>
+              <span className="text-[#00ffffff]">Diploma with honors. </span>
               Received high grades in computer technology and higher mathematics.
             </p>
           </AccordionContent>

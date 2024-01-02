@@ -19,30 +19,32 @@ const AboutAccordionExperience = () => {
             <p className="leading-7 font-sans text-[19px]">Freelancing Across Various Platforms</p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-1">
+        <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-2">
           <AccordionTrigger className="text-[21px] uppercase">
             (2023) - Practice in UANODES COMPANY
           </AccordionTrigger>
-          <AccordionContent className="text-left flex flex-col gap-4 ">
+          <AccordionContent className="text-left flex flex-col gap-4">
             <p className="leading-7 font-sans text-[19px]">
               I conducted a comprehensive analysis of the Frontend section of the project,
               collaborated with Backend developers to evaluate the code logic, and addressed
-              significant issues, including outdated libraries and suboptimal code. This process
-              resulted in the decision to rebuild the project, aiming for enhanced security,
-              performance, and alignment with modern development standards.{' '}
-              <span className="text-yellow-200">
+              significant issues, including outdated libraries and suboptimal code.
+            </p>
+            <p className="leading-7 font-sans text-[19px]">
+              This process resulted in the decision to rebuild the project, aiming for enhanced
+              security, performance, and alignment with modern development standards.{' '}
+              <span className="text-[#00ffffff]">
                 The project utilized React for the Frontend and Django for the Backend.
               </span>
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-4">
+        <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-3">
           <AccordionTrigger className="text-[21px] uppercase ">
             (2022) - WORK AT STOCK EXCHANGES
           </AccordionTrigger>
           <AccordionContent>
             <p className="leading-7 font-sans text-[19px] mb-4">
-              Сreating diverse <span className="text-yellow-200">Vector Graphics</span>
+              Сreating diverse <span className="text-[#00ffffff]">Vector Graphics</span>
             </p>
             <a
               className="py-1 px-4 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
@@ -59,9 +61,9 @@ const AboutAccordionExperience = () => {
           <AccordionContent>
             <p className="leading-7 font-sans text-[19px] mb-4 text-left">
               Self-Employment in the Sales Industry.{' '}
-              <span className="text-yellow-200">Communicating</span> and building{' '}
-              <span className="text-yellow-200">relationships</span> with{' '}
-              <span className="text-yellow-200">customers</span>.
+              <span className="text-[#00ffffff]">Communicating</span> and building{' '}
+              <span className="text-[#00ffffff]">relationships</span> with{' '}
+              <span className="text-[#00ffffff]">customers</span>.
             </p>
           </AccordionContent>
         </AccordionItem>

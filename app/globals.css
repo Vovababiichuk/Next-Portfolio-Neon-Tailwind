@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -9,63 +9,63 @@
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
- 
+
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
- 
+
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
- 
+
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
- 
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
- 
+
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
- 
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
- 
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
- 
+
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
- 
+
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
- 
+
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
- 
+
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
- 
+
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
- 
+
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
- 
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
- 
+
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -78,11 +78,7 @@
 /* ========================================================= */
 
 .Welcome-text {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
     linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
   background-blend-mode: normal, screen;
   -webkit-background-clip: text;
@@ -122,21 +118,13 @@
 }
 
 .button-primary {
-  background: linear-gradient(
-      180deg,
-      rgba(60, 8, 126, 0) 0%,
-      rgba(60, 8, 126, 0.32) 100%
-    ),
+  background: linear-gradient(180deg, rgba(60, 8, 126, 0) 0%, rgba(60, 8, 126, 0.32) 100%),
     rgba(113, 47, 255, 0.12);
   box-shadow: inset 0 0 12px #bf97ff3d;
 }
 
 .button-primary:hover {
-  background: linear-gradient(
-      180deg,
-      rgba(60, 8, 126, 0) 0%,
-      rgba(60, 8, 126, 0.42) 100%
-    ),
+  background: linear-gradient(180deg, rgba(60, 8, 126, 0) 0%, rgba(60, 8, 126, 0.42) 100%),
     rgba(113, 47, 255, 0.24);
   box-shadow: inset 0 0 12px #bf97ff70;
 }
@@ -159,3 +147,31 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* .ww span {
+  display: inline-block;
+  text-decoration: underline 3px RoyalBlue;
+  text-underline-offset: 12px;
+  animation: wavy-waves-anim linear 3000ms infinite;
+}
+     
+.ww span:nth-of-type(1) {animation-delay: 0ms}
+.ww span:nth-of-type(2) {animation-delay: 100ms}
+.ww span:nth-of-type(3) {animation-delay: 200ms}
+.ww span:nth-of-type(4) {animation-delay: 300ms}
+.ww span:nth-of-type(5) {animation-delay: 400ms}
+.ww span:nth-of-type(6) {animation-delay: 500ms}
+.ww span:nth-of-type(7) {animation-delay: 600ms}
+.ww span:nth-of-type(8) {animation-delay: 700ms}
+.ww span:nth-of-type(9) {animation-delay: 800ms}
+.ww span:nth-of-type(10) {animation-delay: 900ms}
+     
+@keyframes wavy-waves-anim {
+ 0% { text-decoration-style: wavy; text-underline-offset: 8px; text-decoration-color: PowderBlue }
+ 5% { text-decoration-style: wavy; text-underline-offset: 0px; text-decoration-color: RoyalBlue }
+ 25% { text-decoration-style: solid; text-underline-offset: 12px }
+ 37.5% { text-decoration-color: PowderBlue }
+ 45% { text-decoration-color: RoyalBlue }
+ 87.5% { text-decoration-color: RoyalBlue }
+ 98% { text-decoration-color: PowderBlue}
+} */
