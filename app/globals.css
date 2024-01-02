@@ -144,9 +144,31 @@
   display: none;
 }
 
+
+/* tech */
+
+.next-tech {
+  @apply bg-white rounded-full p-[1px]
+}
+
+.framer-tech {
+  @apply w-[35px] h-[35px]
+}
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
+
+
+
+
 
 /* .ww span {
   display: inline-block;
@@ -175,3 +197,4 @@ html {
  87.5% { text-decoration-color: RoyalBlue }
  98% { text-decoration-color: PowderBlue}
 } */
+

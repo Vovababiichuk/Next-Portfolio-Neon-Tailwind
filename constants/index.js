@@ -49,9 +49,9 @@ export const Skill_frontend = [
   },
   {
     skill_name: "Next js",
-    Image: "/next.png",
-    width: 80,
-    height: 80,
+    Image: "/next.jpg",
+    width: 120,
+    height: 120,
   },
   {
     skill_name: "Framer Motion",
