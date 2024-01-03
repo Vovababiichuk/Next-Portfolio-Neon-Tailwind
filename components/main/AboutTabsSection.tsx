@@ -29,7 +29,7 @@ const AboutTabsSection = () => {
         <TabsContent className="text-white w-[500px] m-auto mt-[10px]" value="account">
           {/* <Image className='rounded-lg opacity-70' src="/developer.gif" alt="about me" width={600} height={600} /> */}
           <Image
-            className="rounded-lg opacity-90"
+            className="img-shadow rounded-lg opacity-90"
             // src="/about-gif.gif"
             src="/my-photo/my-photo.jpg"
             alt="my photo"

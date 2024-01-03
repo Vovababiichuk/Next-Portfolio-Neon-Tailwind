@@ -161,6 +161,17 @@
 .javaScript-tech {
 }
 
+/* shadow */
+
+.img-shadow {
+  box-shadow: 0 0 14px #b49bff;
+  transition: box-shadow 0.3s ease;
+}
+
+.img-shadow:hover {
+  box-shadow: 0 0 10px #b49bff, 0 0 20px #b49bff;
+}
+
 html {
   scroll-behavior: smooth;
 }
