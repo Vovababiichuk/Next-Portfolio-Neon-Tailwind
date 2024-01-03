@@ -144,31 +144,26 @@
   display: none;
 }
 
-
 /* tech */
 
 .next-tech {
-  @apply bg-white rounded-full p-[1px]
+  @apply bg-white rounded-full p-[1px];
 }
 
 .framer-tech {
-  @apply w-[35px] h-[35px]
+  @apply w-[35px] h-[35px];
 }
 
+.sass-tech {
+  @apply ml-[3px] mr-[3px];
+}
 
-
+.javaScript-tech {
+}
 
 html {
   scroll-behavior: smooth;
 }
-
-
-
-
-
-
-
-
 
 /* .ww span {
   display: inline-block;
@@ -197,4 +192,3 @@ html {
  87.5% { text-decoration-color: RoyalBlue }
  98% { text-decoration-color: PowderBlue}
 } */
-

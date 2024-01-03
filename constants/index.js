@@ -91,6 +91,12 @@ export const Socials = [
 
 export const Skill_backend = [
   {
+    skill_name: "SASS",
+    Image: "/sass.png",
+    width: 75,
+    height: 75,
+  },
+  {
     skill_name: "Styled Components",
     Image: "/styled-components.png",
     width: 75,
@@ -227,6 +233,12 @@ export const Skill_fullstack = [
     Image: "/docker.webp",
     width: 90,
     height: 90,
+  },
+  {
+    skill_name: "jQuery",
+    Image: "/jquery.png",
+    width: 75,
+    height: 75,
   },
 ];
 
