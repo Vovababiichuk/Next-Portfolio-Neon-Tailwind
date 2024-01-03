@@ -85,7 +85,7 @@ const projectsData = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="mt-[-80px]">
+    <section id="projects" className="mt-[-80px] pb-24">
       <MainTitle title="My Projects" subTitleType="projects" />
 
       <div className="flex flex-col items-center justify-center">
