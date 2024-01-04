@@ -12,7 +12,7 @@ const AboutTabsSection = () => {
   return (
     <div className="z-[100] text-center">
       <Tabs defaultValue="account" className="w-[800px] m-auto">
-        <TabsList className="bg-transparent bg-[#1e1741] bg-opacity-50 border border-[1px] border-[#2f2158] mb-6 py-[33px] px-[8px] ">
+        <TabsList className="bg-transparent bg-[#1e1741] bg-opacity-50 border border-[1px] border-[#2f2158] mb-6 py-[33px] px-[8px]">
           <TabsTrigger className="uppercase text-2xl" value="account">
             <ArrowBigRight size={40} />
           </TabsTrigger>

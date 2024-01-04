@@ -23,6 +23,24 @@ const techData = {
 const projectsData = [
   {
     id: 1,
+    src: '/projects/sollers.png',
+    title: 'Security Services',
+    description:
+      'Security services to protect data and privacy. Developed design and code for the product presentation for Sollers Group.',
+    tag: ['All', 'Web'],
+    tech: [
+      techData.react,
+      techData.tailwind,
+      techData.framer,
+      techData.sass,
+      techData.typeScript,
+      techData.chakraUi,
+    ],
+    gitUrl: '/',
+    previewUrl: '/',
+  },
+  {
+    id: 2,
     src: '/projects/music.png',
     title: 'Music Streaming',
     description: 'Animation landing page for a music streaming service.',
@@ -32,32 +50,22 @@ const projectsData = [
     previewUrl: '/',
   },
   {
-    id: 2,
-    src: '/projects/sollers.png',
-    title: 'Security Services',
-    description: 'Security services for data protection and privacy.',
-    tag: ['All', 'Web'],
-    tech: [techData.react, techData.tailwind, techData.framer, techData.sass, techData.typeScript, techData.chakraUi],
-    gitUrl: '/',
-    previewUrl: '/',
-  },
-  {
     id: 3,
-    src: '/projects/marketing.png',
-    title: 'Matrketing Agency',
-    description: 'Landing page for a marketing agency.',
-    tag: ['All', 'Web'],
-    tech: [techData.javaScript, techData.html, techData.css, techData.jquery],
-    gitUrl: '/',
-    previewUrl: '/',
-  },
-  {
-    id: 4,
     src: '/projects/password.png',
     title: 'Password Generator',
     description: 'Generate a random password with different options.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.sass, techData.javaScript],
+    gitUrl: '/',
+    previewUrl: '/',
+  },
+  {
+    id: 4,
+    src: '/projects/marketing.png',
+    title: 'Matrketing Agency',
+    description: 'Landing page for a marketing agency.',
+    tag: ['All', 'Web'],
+    tech: [techData.javaScript, techData.html, techData.css, techData.jquery],
     gitUrl: '/',
     previewUrl: '/',
   },
@@ -88,7 +96,28 @@ const ProjectsSection = () => {
     <section id="projects" className="mt-[-90px] pb-24">
       <MainTitle title="My Projects" subTitleType="projects" />
 
-      <div className="flex flex-col items-center justify-center mt-[-60px]">
+      <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">
+        {/* <button className="rounded-full border-2 border-[#2A0E61] px-10 py-3 text-xl cursor-pointer">
+          All
+        </button> */}
+        {/* <button className="rounded-full border-2 border-slate-600 hover:border-white px-10 py-3 text-xl cursor-pointer">
+          Web
+        </button> */}
+        {/* <button className="rounded-full border-2 border-slate-600 hover:border-white px-10 py-3 text-xl cursor-pointer">
+          Mobile
+        </button> */}
+        <button className="border-2 border-[#b49bff] py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
+          All
+        </button>
+        <button className="py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
+          Web
+        </button>
+        <button className="py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
+          Mobile
+        </button>
+      </div>
+
+      <div className="flex flex-col items-center justify-center">
         <div className="h-full w-full flex flex-wrap justify-center gap-6 px-[10px]">
           {projectsData.map((project) => (
             <ProjectCard

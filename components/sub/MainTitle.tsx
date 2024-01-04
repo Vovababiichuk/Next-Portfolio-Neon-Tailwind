@@ -55,17 +55,17 @@ const ProjectsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center relative z-40">
       Developing{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
       </span>{' '}
       with{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-        any level
+        Cross-Platform
       </span>{' '}
-        of complexity
-      <div className="absolute top-28 left-[45%] animate-bounce">
+      <span className="block">Compatibility</span>
+      <div className="absolute top-[150px] left-[45%] animate-bounce">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
       </div>
     </motion.div>

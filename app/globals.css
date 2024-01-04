@@ -158,18 +158,29 @@
   @apply ml-[3px] mr-[3px];
 }
 
-.javaScript-tech {
+.chakraUi-tech {
+  @apply ml-1
 }
 
 /* shadow */
 
 .img-shadow {
-  box-shadow: 0 0 14px #b49bff;
+  box-shadow: 0 0 16px #b49bff;
   transition: box-shadow 0.3s ease;
 }
 
 .img-shadow:hover {
   box-shadow: 0 0 10px #b49bff, 0 0 20px #b49bff;
+}
+
+.card-shadow-project {
+  box-shadow: 0 0 14px #7632ff;
+  transition: box-shadow 0.1s ease;
+}
+
+.card-shadow-project:hover {
+  box-shadow: 0 0 10px #7632ff, 0 0 20px #7632ff;
+  cursor: pointer;
 }
 
 /* sharp-image */

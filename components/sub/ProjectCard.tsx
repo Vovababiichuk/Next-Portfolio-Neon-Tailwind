@@ -17,12 +17,13 @@ const getTechImageClass = (techItem: string): string => {
     'framer-tech': techItem === '/framer.png',
     'sass-tech': techItem === '/sass.png',
     'javaScript-tech': techItem === '/js.png',
+    'chakraUi-tech': techItem === '/chakra.png',
   });
 };
 
 const ProjectCard = ({ src, title, description, tag, tech }: IProps) => {
   return (
-    <div className="relative w-[400px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158]">
+    <div className="relative w-[400px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]">
       <Image
         src={src}
         alt={title}
