@@ -6,6 +6,7 @@ import {
 } from '@/components/ui/accordion';
 
 import React from 'react';
+import Image from 'next/image';
 
 const AboutAccordionEducation = () => {
   return (
@@ -23,11 +24,19 @@ const AboutAccordionEducation = () => {
             <p className="leading-7 font-sans text-[19px] mb-4 text-left">
               Developer who combines knowledge of{' '}
               <span className="text-[#00ffffff]">Front-end and Back-end</span> developers. Such
-              specialists can create any <span className="text-[#00ffffff]">website, mobile or PC application</span> from scratch. And they
-              occupy the first place in demand in the market
+              specialists can create any{' '}
+              <span className="text-[#00ffffff]">website, mobile or PC application</span> from
+              scratch. And they occupy the first place in demand in the market.
+            </p>
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
+              I studied such technologies at school: <span className="text-[#00ffffff]">
+                Html, Css, Java Script, Type Script, React.js,
+                Redux, Styled Components, Formic, Next.js, i18n, Axios, Moment.js, Express.js,
+                Nest,js, SQL
+              </span> and more.
             </p>
             <a
-              className="py-1 px-4 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
+              className="py-1 px-6 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
               href="https://it-brains.com.ua/study/"
               target="_blank">
               Link
@@ -39,11 +48,17 @@ const AboutAccordionEducation = () => {
             (2022-2023) - IT Course{' '}
           </AccordionTrigger>
           <AccordionContent>
-            <p className="leading-7 font-sans text-[19px] mb-4">
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
               Course <span className="text-[#00ffffff]">Website Layout</span> from 0 to 1
             </p>
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
+              During the course, I studied{' '}
+              <span className="text-[#00ffffff]">Html, Css, Gulp, Git, SASS, BEM, JQuery</span>.{' '}
+              <span className="text-[#00ffffff]">Landing page</span> layout and{' '}
+              <span className="text-[#00ffffff]">Online Store</span> development.
+            </p>
             <a
-              className="py-1 px-4 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
+              className="py-1 px-6 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono"
               href="https://from0to1.com.ua/"
               target="_blank">
               Link
@@ -55,11 +70,23 @@ const AboutAccordionEducation = () => {
             (2005-2010) - University{' '}
           </AccordionTrigger>
           <AccordionContent>
-            <p className="leading-7 font-sans text-[19px] mb-4">
+            <p className="leading-7 font-sans text-[19px] mb-4 text-left">
               Vinnitsa National Agrarian University (Specialist; Management of organizations) -{' '}
               <span className="text-[#00ffffff]">Diploma with honors. </span>
-              Received high grades in computer technology and higher mathematics.
+              Received{' '}
+              <span className="text-[#00ffffff]">
+                high grades in computer technology and higher mathematics
+              </span>
+              .
             </p>
+            <div className="flex items-center gap-4">
+              <span>
+                <Image src="/diplom1.jpg" width={200} height={200} alt="diploma" />
+              </span>
+              <span>
+                <Image src="/diplom2.jpg" width={210} height={210} alt="diploma" />
+              </span>
+            </div>
           </AccordionContent>
         </AccordionItem>
       </Accordion>

@@ -172,6 +172,15 @@
   box-shadow: 0 0 10px #b49bff, 0 0 20px #b49bff;
 }
 
+/* sharp-image */
+
+.sharp-image {
+  image-rendering: pixelated;
+}
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
