@@ -85,10 +85,10 @@ const projectsData = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="mt-[-80px] pb-24">
+    <section id="projects" className="mt-[-90px] pb-24">
       <MainTitle title="My Projects" subTitleType="projects" />
 
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-[-60px]">
         <div className="h-full w-full flex flex-wrap justify-center gap-6 px-[10px]">
           {projectsData.map((project) => (
             <ProjectCard
