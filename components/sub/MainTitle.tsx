@@ -23,7 +23,7 @@ const AboutTitle = () => {
         creative
       </span>{' '}
       solutions
-      <div className="absolute top-28 left-[45%]  animate-pulse">
+      <div className="absolute top-28 left-[45%] animate-bounce">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
       </div>
     </motion.div>
@@ -44,7 +44,7 @@ const SkillsTitle = () => {
         modern
       </span>{' '}
       technologies
-      <div className="absolute top-28 left-[45%]  animate-pulse">
+      <div className="absolute top-28 left-[45%] animate-bounce">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
       </div>
     </motion.div>
@@ -65,7 +65,7 @@ const ProjectsTitle = () => {
         any level
       </span>{' '}
         of complexity
-      <div className="absolute top-28 left-[45%]  animate-pulse">
+      <div className="absolute top-28 left-[45%] animate-bounce">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
       </div>
     </motion.div>
