@@ -174,21 +174,50 @@
 }
 
 .card-shadow-project {
-  box-shadow: 0 0 14px #7632ff;
-  transition: box-shadow 0.1s ease;
+  box-shadow: 0 0 10px #7632ff, 0 0 20px #7632ff;
+  transition: all 0.2s ease;
 }
 
-.card-shadow-project:hover {
-  box-shadow: 0 0 10px #7632ff, 0 0 20px #7632ff;
-  cursor: pointer;
+.card-shadow-project::before {
+  content: ''; /* Псевдоелемент для затемнення фону при ховері */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1; /* Позначаємо верхній шар, щоб псевдоелемент був вище ніж картка */
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
+
+.card-shadow-project:hover::before {
+  opacity: 1;
+  filter: blur(3px);
+}
+
+.card-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 2; /* Позначаємо верхній шар, щоб іконки були вище ніж псевдоелемент */
+}
+
+/* .card-shadow-project:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  filter: blur(3px);
+  scale: 1.01;
+} */
+
 
 /* sharp-image */
 
 .sharp-image {
   image-rendering: pixelated;
 }
-
 
 
 

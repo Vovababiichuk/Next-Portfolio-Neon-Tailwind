@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { ExternalLink, GithubIcon, Linkedin } from 'lucide-react';
 import { PiTelegramLogo } from 'react-icons/pi';
+import Link from 'next/link';
 
 const HeroContent = () => {
   return (
@@ -71,24 +72,24 @@ const HeroContent = () => {
               </div>
             </a>
             <div className="flex items-center gap-2">
-              <a
+              <Link
                 href="https://github.com/Vovababiichuk"
                 target="_blank"
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.linkedin.com/in/frontend-pro-volodymyr-059377298"
                 target="_blank"
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <Linkedin className="text-white w-10 h-10 cursor-pointer" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://t.me/volodymyrbabiichuk"
                 target="_blank"
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
-              </a>
+              </Link>
             </div>
           </div>
         </motion.div>

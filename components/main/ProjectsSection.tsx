@@ -127,6 +127,8 @@ const ProjectsSection = () => {
               description={project.description}
               tag={project.tag}
               tech={project.tech || []}
+              previewUrl={project.previewUrl}
+              gitUrl={project.gitUrl}
             />
           ))}
         </div>
