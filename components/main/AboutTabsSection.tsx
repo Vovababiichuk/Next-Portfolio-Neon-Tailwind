@@ -6,7 +6,8 @@ import { ArrowBigRight } from 'lucide-react';
 import Image from 'next/image';
 import AboutAccordionExperience from '../sub/AboutAccordionExperience';
 import AboutAccordionEducation from '../sub/AboutAccordionEducation';
-// import AboutCarusel from '../sub/AboutCarusel';
+import AboutAccordionCertificates from '../sub/AboutAccordionCertificates';
+import AboutCarusel from '../sub/AboutCarusel';
 
 const AboutTabsSection = () => {
   return (
@@ -45,6 +46,7 @@ const AboutTabsSection = () => {
         </TabsContent>
         <TabsContent className="text-white" value="password">
           {/* <AboutCarusel /> */}
+          <AboutAccordionCertificates />
         </TabsContent>
       </Tabs>
       ;
