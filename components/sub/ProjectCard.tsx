@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
-import { Eye, Github, LinkIcon } from 'lucide-react';
+import { Eye, Github, GithubIcon, LinkIcon } from 'lucide-react';
 
 interface IProps {
   src: string;
@@ -32,9 +32,8 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
     <div
       className="relative w-[400px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]"
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      >
-      {/* <Link href={previewUrl}> */}
+      onMouseLeave={() => setIsHovered(false)}>
+      <Link href={previewUrl} target="_blank">
         <Image
           src={src}
           alt={title}
@@ -44,14 +43,33 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
         />
 
         {isHovered && (
-          <div className="absolute top-0 left-0 w-full h-full text-white flex gap-4 items-center justify-center card-icons">
-            <Link href={previewUrl}>
-              <Eye size={100} color="#b49bff" className='hover:scale-110 transition duration-300 ease-in-out' />
-              {/* <LinkIcon size={100} color="white" /> */}
-            </Link>
-            <Link href={gitUrl}>
-              <Github size={80} color="#b49bff" className='hover:scale-110 transition duration-300 ease-in-out' />
-            </Link>
+          <div className="absolute top-0 left-0 w-full h-full text-white items-center flex flex-col gap-10 justify-center card-icons">
+            <div className='flex gap-5'>
+              <Link
+                href={previewUrl}
+                target="_blank"
+                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
+                <Eye className="text-white w-16 h-16 cursor-pointer" />
+              </Link>
+              {/* {gitUrl && (
+              <Link href={gitUrl} target='_blank'>
+                <Github size={80} color="#b49bff" className='hover:scale-110 transition duration-300 ease-in-out' />
+              </Link>
+              )} */}
+              <Link
+                href="https://github.com/Vovababiichuk"
+                target="_blank"
+                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
+                <GithubIcon className="text-white w-16 h-16 cursor-pointer" />
+              </Link>
+            </div>
+            <Image
+            src="/nick.svg"
+            alt="logo"
+            width={300}
+            height={300}
+            className="block"
+          />
           </div>
         )}
 
@@ -66,7 +84,7 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
             ))}
           </div>
         </div>
-      {/* </Link> */}
+      </Link>
     </div>
   );
 };

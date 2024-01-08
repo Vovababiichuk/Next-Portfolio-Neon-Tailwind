@@ -36,8 +36,8 @@ const projectsData = [
       techData.typeScript,
       techData.chakraUi,
     ],
-    gitUrl: '/',
-    previewUrl: '/',
+    // gitUrl: '/',
+    previewUrl: 'https://fascinating-daffodil-76e1c9.netlify.app/',
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const projectsData = [
     tag: ['All', 'Web'],
     tech: [techData.next, techData.tailwind, techData.framer],
     gitUrl: '/',
-    previewUrl: '/',
+    previewUrl: 'https://music-website-next-js-tailwind-css-and-framer-motion-9gh4.vercel.app/',
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const projectsData = [
     tag: ['All', 'Web'],
     tech: [techData.react, techData.sass, techData.javaScript],
     gitUrl: '/',
-    previewUrl: '/',
+    previewUrl: 'https://react-password-generator-done.vercel.app/',
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ const projectsData = [
     tag: ['All', 'Web'],
     tech: [techData.javaScript, techData.html, techData.css, techData.jquery],
     gitUrl: '/',
-    previewUrl: '/',
+    previewUrl: 'https://vovababiichuk.github.io/Marketing-project/',
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ const projectsData = [
     tag: ['All', 'Web'],
     tech: [techData.react, techData.typeScript, techData.styledComponents, techData.chakraUi],
     gitUrl: '/',
-    previewUrl: '/',
+    previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ const projectsData = [
     tag: ['All', 'Mobile'],
     tech: [techData.react, techData.ionic],
     gitUrl: '/',
-    previewUrl: '/',
+    previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
   },
 ];
 
