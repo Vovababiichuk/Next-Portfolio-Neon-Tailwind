@@ -42,3 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 //NOTE - npm install framer-motion three react-intersection-observer @react-three/drei @react-three/fiber
 
 //NOTE - npm install @heroicons/react
+
+<!-- useful link -->
+<!-- https://www.youtube.com/watch?v=Kb1f5bvF6f4&t=4208s -->

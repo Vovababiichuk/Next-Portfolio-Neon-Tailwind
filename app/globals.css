@@ -219,6 +219,12 @@
   image-rendering: pixelated;
 }
 
+/* active-class */
+
+.active-filter {
+  color: #9224de;
+  border: 2px solid #b49bff;
+}
 
 
 html {

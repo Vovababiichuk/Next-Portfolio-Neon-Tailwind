@@ -1,17 +1,24 @@
-// 'use client';
+'use client';
 
-// import React from 'react';
+import { is } from '@react-three/fiber/dist/declarations/src/core/utils';
+import React from 'react';
 
-// const ProjectTag = ({ name, onClick, isSelected }) => {
-//   const buttonStyles = isSelected
-//     ? "rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer"
-//     : "rounded-full border-2 border-slate-600 hover:border-white px-6 py-3 text-xl cursor-pointer";
+interface IPropsProjectTag {
+  name: string;
+  onClick: (newTag: string) => void;
+  isSelected: boolean;
+}
 
-//   return (
-//     <button className="rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer">
-//       All
-//     </button>
-//   );
-// };
+const ProjectTag = ({ name, onClick, isSelected }: IPropsProjectTag) => {
+  const buttonStyles = isSelected
+    ? 'active-filter'
+    : 'py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out';
 
-// export default ProjectTag;
+  return (
+    <button className={`${buttonStyles} py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out`} onClick={() => onClick(name)}>
+      {name}
+    </button>
+  );
+};
+
+export default ProjectTag;

@@ -1,8 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectCard from '../sub/ProjectCard';
 import MainTitle from '../sub/MainTitle';
+import ProjectTag from '../main/ProjectTag';
 
 const techData = {
   next: '/next.svg',
@@ -92,34 +93,27 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
+  const [tag, setTag] = useState('All');
+
+  const handleTagChange = (newTag: string) => {
+    setTag(newTag);
+  };
+
+  const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
+
   return (
     <section id="projects" className="mt-[-90px] pb-24">
       <MainTitle title="My Projects" subTitleType="projects" />
 
       <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">
-        {/* <button className="rounded-full border-2 border-[#2A0E61] px-10 py-3 text-xl cursor-pointer">
-          All
-        </button> */}
-        {/* <button className="rounded-full border-2 border-slate-600 hover:border-white px-10 py-3 text-xl cursor-pointer">
-          Web
-        </button> */}
-        {/* <button className="rounded-full border-2 border-slate-600 hover:border-white px-10 py-3 text-xl cursor-pointer">
-          Mobile
-        </button> */}
-        <button className="border-2 border-[#b49bff] py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
-          All
-        </button>
-        <button className="py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
-          Web
-        </button>
-        <button className="py-3 button-primary text-center cursor-pointer rounded-full w-full max-w-[160px] text-[20px] transition-all duration-300 ease-in-out">
-          Mobile
-        </button>
+        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
+        <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === 'Web'} />
+        <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === 'Mobile'} />
       </div>
 
       <div className="flex flex-col items-center justify-center">
         <div className="h-full w-full flex flex-wrap justify-center gap-6 px-[10px]">
-          {projectsData.map((project) => (
+          {filteredProjects.map((project) => (
             <ProjectCard
               key={project.id}
               src={project.src}
