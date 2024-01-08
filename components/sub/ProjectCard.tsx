@@ -44,32 +44,23 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
 
         {isHovered && (
           <div className="absolute top-0 left-0 w-full h-full text-white items-center flex flex-col gap-10 justify-center card-icons">
-            <div className='flex gap-5'>
+            <div className="flex gap-5">
               <Link
                 href={previewUrl}
                 target="_blank"
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <Eye className="text-white w-16 h-16 cursor-pointer" />
               </Link>
-              {/* {gitUrl && (
-              <Link href={gitUrl} target='_blank'>
-                <Github size={80} color="#b49bff" className='hover:scale-110 transition duration-300 ease-in-out' />
-              </Link>
-              )} */}
-              <Link
-                href="https://github.com/Vovababiichuk"
-                target="_blank"
-                className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
-                <GithubIcon className="text-white w-16 h-16 cursor-pointer" />
-              </Link>
+              {gitUrl && (
+                <Link
+                  href={gitUrl}
+                  target="_blank"
+                  className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
+                  <GithubIcon className="text-white w-16 h-16 cursor-pointer" />
+                </Link>
+              )}
             </div>
-            <Image
-            src="/nick.svg"
-            alt="logo"
-            width={300}
-            height={300}
-            className="block"
-          />
+            <Image src="/nick.svg" alt="logo" width={300} height={300} className="block" />
           </div>
         )}
 

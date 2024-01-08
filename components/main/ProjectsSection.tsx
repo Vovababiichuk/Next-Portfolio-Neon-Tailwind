@@ -36,7 +36,7 @@ const projectsData = [
       techData.typeScript,
       techData.chakraUi,
     ],
-    // gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://fascinating-daffodil-76e1c9.netlify.app/',
   },
   {
@@ -46,7 +46,7 @@ const projectsData = [
     description: 'Animation landing page for a music streaming service.',
     tag: ['All', 'Web'],
     tech: [techData.next, techData.tailwind, techData.framer],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://music-website-next-js-tailwind-css-and-framer-motion-9gh4.vercel.app/',
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: 'Generate a random password with different options.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.sass, techData.javaScript],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://react-password-generator-done.vercel.app/',
   },
   {
@@ -66,7 +66,7 @@ const projectsData = [
     description: 'Landing page for a marketing agency.',
     tag: ['All', 'Web'],
     tech: [techData.javaScript, techData.html, techData.css, techData.jquery],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://vovababiichuk.github.io/Marketing-project/',
   },
   {
@@ -76,7 +76,7 @@ const projectsData = [
     description: 'Ordering system for a restaurant.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.typeScript, techData.styledComponents, techData.chakraUi],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
   },
   {
@@ -86,7 +86,7 @@ const projectsData = [
     description: 'Simple app that calculates your body mass index (BMI).',
     tag: ['All', 'Mobile'],
     tech: [techData.react, techData.ionic],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
   },
 ];
