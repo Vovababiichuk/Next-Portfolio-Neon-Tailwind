@@ -103,8 +103,8 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className="mt-[-90px] pb-36 ">
-      <div className='container'>
-        <MainTitle title="My Projects" subTitleType="projects" />
+      <MainTitle title="My Projects" subTitleType="projects" />
+      <div className="container">
         <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">
           <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
           <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === 'Web'} />
