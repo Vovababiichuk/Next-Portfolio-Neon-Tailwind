@@ -224,11 +224,18 @@
 .active-filter {
   color: #9224de;
   border: 2px solid #b49bff;
+  transform: none;
+  outline: none;
 }
-
 
 html {
   scroll-behavior: smooth;
+}
+
+/* container */
+
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
 }
 
 /* .ww span {

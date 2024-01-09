@@ -102,29 +102,29 @@ const ProjectsSection = () => {
   const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
 
   return (
-    <section id="projects" className="mt-[-90px] pb-24">
-      <MainTitle title="My Projects" subTitleType="projects" />
-
-      <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">
-        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
-        <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === 'Web'} />
-        <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === 'Mobile'} />
-      </div>
-
-      <div className="flex flex-col items-center justify-center">
-        <div className="h-full w-full flex flex-wrap justify-center gap-6 px-[10px]">
-          {filteredProjects.map((project) => (
-            <ProjectCard
-              key={project.id}
-              src={project.src}
-              title={project.title}
-              description={project.description}
-              tag={project.tag}
-              tech={project.tech || []}
-              previewUrl={project.previewUrl}
-              gitUrl={project.gitUrl}
-            />
-          ))}
+    <section id="projects" className="mt-[-90px] pb-24 ">
+      <div className='container'>
+        <MainTitle title="My Projects" subTitleType="projects" />
+        <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">
+          <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
+          <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === 'Web'} />
+          <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === 'Mobile'} />
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <div className="h-full w-full flex flex-wrap justify-center gap-6 px-[10px]">
+            {filteredProjects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                src={project.src}
+                title={project.title}
+                description={project.description}
+                tag={project.tag}
+                tech={project.tech || []}
+                previewUrl={project.previewUrl}
+                gitUrl={project.gitUrl}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
