@@ -59,12 +59,12 @@ export const Skill_frontend = [
     width: 75,
     height: 75,
   },
-  {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 75,
-    height: 75,
-  },
+  // {
+  //   skill_name: "Stripe Payment",
+  //   Image: "/stripe.webp",
+  //   width: 75,
+  //   height: 75,
+  // },
   {
     skill_name: "Node js",
     Image: "/node-js.png",
@@ -144,18 +144,18 @@ export const Skill_backend = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    Image: "/prisma.webp",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "GraphQL",
-    Image: "/graphql.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Prisma",
+  //   Image: "/prisma.webp",
+  //   width: 70,
+  //   height: 70,
+  // },
+  // {
+  //   skill_name: "GraphQL",
+  //   Image: "/graphql.png",
+  //   width: 80,
+  //   height: 80,
+  // },
 ];
 
 export const Skill_ui = [
@@ -228,12 +228,12 @@ export const Skill_fullstack = [
   //   width: 70,
   //   height: 70,
   // },
-  {
-    skill_name: "Docker",
-    Image: "/docker.webp",
-    width: 90,
-    height: 90,
-  },
+  // {
+  //   skill_name: "Docker",
+  //   Image: "/docker.webp",
+  //   width: 90,
+  //   height: 90,
+  // },
   {
     skill_name: "jQuery",
     Image: "/jquery.png",

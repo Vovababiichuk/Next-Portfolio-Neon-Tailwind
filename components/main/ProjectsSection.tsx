@@ -102,7 +102,7 @@ const ProjectsSection = () => {
   const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
 
   return (
-    <section id="projects" className="mt-[-90px] pb-24 ">
+    <section id="projects" className="mt-[-90px] pb-36 ">
       <div className='container'>
         <MainTitle title="My Projects" subTitleType="projects" />
         <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">

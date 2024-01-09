@@ -30,7 +30,7 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
 
   return (
     <div
-      className="relative w-[400px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]"
+      className="relative w-[392px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}>
       <Link href={previewUrl} target="_blank">

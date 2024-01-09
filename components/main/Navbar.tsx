@@ -19,21 +19,21 @@ const Navbar = () => {
         </Link>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 text-[18px]">
-            <a
+            <Link
               href="#about"
               className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
               About
-            </a>
-            <a
+            </Link>
+            <Link
               href="#skills"
               className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
               Skills
-            </a>
-            <a
+            </Link>
+            <Link
               href="#projects"
               className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
               Projects
-            </a>
+            </Link>
           </div>
         </div>
         <div>

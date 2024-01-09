@@ -3,7 +3,7 @@ import { Days_One } from 'next/font/google';
 import './globals.css';
 import StarsCanvas from '@/components/main/StarBackground';
 import Navbar from '@/components/main/Navbar';
-import Footer from '@/components/main/Footer';
+import Footer from '@/components/main/FooterSection';
 import ScrollToTopButton from '@/components/main/ScrollToTopButton';
 const inter = Days_One({ weight: '400', subsets: ['latin'] });
 
