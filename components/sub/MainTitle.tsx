@@ -13,7 +13,7 @@ const AboutTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[40px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
       Building{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
@@ -34,7 +34,7 @@ const SkillsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[40px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
       Making{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
@@ -55,7 +55,7 @@ const ProjectsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[42px] text-white font-medium mt-[10px] text-center relative z-40">
+      className="mt-10 text-[40px] text-white font-medium mt-[10px] text-center relative z-40">
       Developing{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
         apps
@@ -81,7 +81,7 @@ const MainTitle = ({ title, subTitleType }: IMainTitle) => {
             variants={slideInFromTop}
             className="Welcome-box-title opacity-[0.9] mb-10 px-[100px]">
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-12 w-12" />
-            <h1 className="Welcome-text text-[62px] mb-2">{title}</h1>
+            <h1 className="Welcome-text text-[60px] mb-2">{title}</h1>
           </motion.div>
           {subTitleType === 'about' && <AboutTitle />}
           {subTitleType === 'skills' && <SkillsTitle />}
