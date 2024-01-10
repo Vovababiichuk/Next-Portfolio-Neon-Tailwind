@@ -206,7 +206,7 @@ export const Skill_ui = [
 export const Skill_fullstack = [
   {
     skill_name: "React Native",
-    Image: "/ReactNative .png",
+    Image: "/react-native.png",
     width: 85,
     height: 85,
   },
