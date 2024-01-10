@@ -238,6 +238,12 @@ html {
   @apply max-w-screen-xl mx-auto px-4;
 }
 
+/* active */
+
+.active {
+  @apply text-primary;
+}
+
 /* .ww span {
   display: inline-block;
   text-decoration: underline 3px RoyalBlue;

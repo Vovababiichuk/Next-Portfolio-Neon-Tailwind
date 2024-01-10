@@ -1,12 +1,34 @@
+'use client';
+
+import React from 'react';
 import { Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+
+const links = [
+  {
+    path: 'about',
+    name: 'About',
+    offset: -10,
+  },
+  {
+    path: 'skills',
+    name: 'Skills',
+    offset: -10,
+  },
+  {
+    path: 'projects',
+    name: 'Projects',
+    offset: 0,
+  },
+];
 
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[1200] px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] max-xl:flex-wrap">
+        {/* Logo */}
         <Link href="#home" className="h-auto w-auto flex flex-row items-center">
           <Image
             src="/nick.svg"
@@ -17,25 +39,50 @@ const Navbar = () => {
           />
           <span className="font-bold ml-[10px] hidden md:block text-gray-300 uppercase"></span>
         </Link>
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 text-[18px]">
-            <Link
-              href="#about"
-              className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
-              About
-            </Link>
-            <Link
-              href="#skills"
+        {/* Links */}
+        <nav className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+          <ul className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 text-[18px]">
+            {links.map((link) => {
+              return (
+                <li key={link.path}>
+                  <ScrollLink
+                    activeClass="active"
+                    to={link.path}
+                    spy={true}
+                    smooth={true}
+                    offset={link.offset}
+                    duration={500}
+                    className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
+                    {link.name}
+                  </ScrollLink>
+                </li>
+              );
+            })}
+            {/* <Link
+              // activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              // href="#skills"
               className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
               Skills
             </Link>
             <Link
-              href="#projects"
+              // activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              // href="#projects"
               className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
               Projects
-            </Link>
-          </div>
-        </div>
+            </Link> */}
+          </ul>
+        </nav>
+        {/* Phone */}
         <div>
           <span className="text-white text-[20px]">
             <Phone size={20} className="inline-block mr-2" />
