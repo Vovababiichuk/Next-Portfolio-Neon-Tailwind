@@ -54,15 +54,18 @@ const MobileNav = () => {
           <div className="w-7 h-[2px] bg-white transition-all"></div>
         </div>
       </SheetTrigger>
-      <SheetContent className="z-[3000] bg-[#0a071b] ">
+      <SheetContent className="z-[3000] bg-[#0c081e] ">
         <SheetHeader>
           <SheetTitle>
-            <Link href="#home" className="h-auto w-auto flex flex-row items-center">
+            <Link href="#home" className="h-auto w-auto flex flex-row items-center justify-center">
               <Image
-                src="/nick.svg"
+                // src="/nick.svg"
+                src="/logo6.svg"
                 alt="logo"
-                width={240}
-                height={240}
+                // width={254}
+                // height={254}
+                width={80}
+                height={80}
                 className="cursor-pointer hover:animate-slowspin"
               />
             </Link>

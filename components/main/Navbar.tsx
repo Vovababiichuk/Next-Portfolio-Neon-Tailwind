@@ -27,9 +27,16 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[1200] px-10">
+    <div className="w-full h-[68px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[1200] px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] max-xl:flex-wrap">
         {/* Logo */}
+        <Image
+          src="/logo6.svg"
+          alt="logo"
+          width={55}
+          height={55}
+          className="cursor-pointer hover:animate-slowspin"
+        />
         <Link href="#home" className="h-auto w-auto flex flex-row items-center">
           <Image
             src="/nick.svg"
