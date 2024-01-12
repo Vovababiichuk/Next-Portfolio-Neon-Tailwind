@@ -39,7 +39,7 @@ const SkillDataProvider = ({ src, width, height, index, skill_name }: Props) => 
         <Tooltip>
           <TooltipTrigger>
             <Image
-              className="hover:scale-110 hover:opacity-40 duration-300 transition ease-in-out cursor-pointer"
+              className="hover:scale-110 hover:opacity-40 duration-300 transition ease-in-out cursor-pointer rounded"
               src={src}
               width={width}
               height={height}

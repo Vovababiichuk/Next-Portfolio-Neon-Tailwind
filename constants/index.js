@@ -144,6 +144,12 @@ export const Skill_backend = [
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "Handlebars",
+    Image: "/handlebars.png",
+    width: 88,
+    height: 88,
+  },
   // {
   //   skill_name: "Prisma",
   //   Image: "/prisma.webp",

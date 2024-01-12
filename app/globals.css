@@ -271,3 +271,13 @@ html {
  87.5% { text-decoration-color: RoyalBlue }
  98% { text-decoration-color: PowderBlue}
 } */
+
+
+
+/* Media */
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
