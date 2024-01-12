@@ -61,40 +61,38 @@ const MobileNav = () => {
               <Image
                 src="/logo6.svg"
                 alt="logo"
-                width={80}
-                height={80}
+                width={86}
+                height={86}
                 className="cursor-pointer hover:animate-slowspin"
               />
             </Link>
           </SheetTitle>
           <SheetDescription className="text-[#b49bff] ">
-            <nav className="pt-16">
-              <ul className="flex flex-col items-center justify-center gap-y-6 text-[22px]">
-                {links.map((link) => {
-                  return (
-                    <>
-                      <ScrollLink
-                        activeClass="active"
-                        to={link.path}
-                        spy={true}
-                        smooth={true}
-                        offset={link.offset}
-                        duration={500}
-                        className="cursor-pointer uppercase hover:text-primary transition duration-100 ease-in-out w-full">
-                        <li
-                          onClick={handleCloseMenu}
-                          key={link.path}
-                          className="border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[20px] rounded-full w-full text-center hover:bg-[#18054e61] hover:cursor-pointer transition duration-300 ease-in-out">
-                          {link.name}
-                        </li>
-                      </ScrollLink>
-                    </>
-                  );
-                })}
-              </ul>
-            </nav>
+            <span className="flex flex-col items-center justify-center gap-y-6 text-[22px] pt-16">
+              {links.map((link) => {
+                return (
+                  <>
+                    <ScrollLink
+                      activeClass="active"
+                      to={link.path}
+                      spy={true}
+                      smooth={true}
+                      offset={link.offset}
+                      duration={500}
+                      className="cursor-pointer uppercase hover:text-primary transition duration-100 ease-in-out w-full">
+                      <span
+                        onClick={handleCloseMenu}
+                        key={link.path}
+                        className="block border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[20px] rounded-full w-full text-center hover:bg-[#18054e61] hover:cursor-pointer transition duration-300 ease-in-out">
+                        {link.name}
+                      </span>
+                    </ScrollLink>
+                  </>
+                );
+              })}
+            </span>
             {/* social */}
-            <div className="flex items-center gap-3 justify-center pt-16">
+            <span className="flex items-center gap-3 justify-center pt-16">
               <Link
                 href="https://github.com/Vovababiichuk"
                 target="_blank"
@@ -113,7 +111,7 @@ const MobileNav = () => {
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <PiTelegramLogo className="text-white w-10 h-10 cursor-pointer" />
               </Link>
-            </div>
+            </span>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
