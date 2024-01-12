@@ -39,7 +39,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
         </Link>
-        <Link href="#home" className="h-auto w-auto flex flex-row items-center">
+        <Link href="#home" className="h-auto w-auto flex flex-row items-center max-[530px]:hidden">
           <Image
             src="/nick.svg"
             alt="nick"
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu */}
-        <div className="lg:hidden text-white">
+        <div className="lg:hidden text-white mt-[-14px]">
           <MobileNav />
         </div>
       </div>
