@@ -5,6 +5,7 @@ import { Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Link as ScrollLink } from 'react-scroll';
+import MobileNav from '../sub/MobileNav';
 
 const links = [
   {
@@ -37,10 +38,9 @@ const Navbar = () => {
             height={300}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300 uppercase"></span>
         </Link>
         {/* Links */}
-        <nav className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <nav className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 max-md:hidden">
           <ul className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 text-[18px]">
             {links.map((link) => {
               return (
@@ -61,11 +61,16 @@ const Navbar = () => {
           </ul>
         </nav>
         {/* Phone */}
-        <div>
+        <div className="max-md:hidden">
           <span className="text-white text-[20px]">
             <Phone size={20} className="inline-block mr-2" />
             +38 (068) 025 3147
           </span>
+        </div>
+
+        {/* Hamburger menu */}
+        <div className="md:hidden text-white">
+          <MobileNav />
         </div>
       </div>
     </div>
