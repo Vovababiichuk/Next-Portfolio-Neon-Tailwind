@@ -40,7 +40,7 @@ const Navbar = () => {
           />
         </Link>
         {/* Links */}
-        <nav className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 max-md:hidden">
+        <nav className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 max-lg:hidden">
           <ul className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 text-[18px]">
             {links.map((link) => {
               return (
@@ -61,7 +61,7 @@ const Navbar = () => {
           </ul>
         </nav>
         {/* Phone */}
-        <div className="max-md:hidden">
+        <div className="max-xl:hidden">
           <span className="text-white text-[20px]">
             <Phone size={20} className="inline-block mr-2" />
             +38 (068) 025 3147
@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu */}
-        <div className="md:hidden text-white">
+        <div className="lg:hidden text-white">
           <MobileNav />
         </div>
       </div>
