@@ -58,28 +58,6 @@ const Navbar = () => {
                 </li>
               );
             })}
-            {/* <Link
-              // activeClass="active"
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              // href="#skills"
-              className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
-              Skills
-            </Link>
-            <Link
-              // activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              // href="#projects"
-              className="cursor-pointer uppercase hover:text-primary transition duration-300 ease-in-out">
-              Projects
-            </Link> */}
           </ul>
         </nav>
         {/* Phone */}

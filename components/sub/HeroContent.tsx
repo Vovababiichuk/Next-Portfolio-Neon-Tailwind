@@ -61,8 +61,8 @@ const HeroContent = () => {
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
           <div className="flex items-center gap-10">
-            <a
-              href="https://drive.google.com/file/d/1nYn6N9FcxaJZHT8dgfAJ94hA2gVoasjr/view?usp=drive_link"
+            <Link
+              href="https://drive.google.com/file/d/1zXOx0gTpj3U6kZ77incHmREp-7z3LEsi/view?usp=sharing"
               target="_blank"
               className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl transition-all duration-300 ease-in-out">
               <div className="flex items-center justify-center gap-2">
@@ -71,7 +71,7 @@ const HeroContent = () => {
                   <ExternalLink />
                 </span>
               </div>
-            </a>
+            </Link>
             <div className="flex items-center gap-2">
               <Link
                 href="https://github.com/Vovababiichuk"
