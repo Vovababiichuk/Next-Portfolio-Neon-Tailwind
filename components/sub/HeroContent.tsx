@@ -14,7 +14,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center mt-[100px] w-full z-[20] gap-10 h-[620px] container">
+      className="flex flex-row items-center justify-center mt-[100px] max-sm:mt-[34px] w-full z-[20] gap-10 h-[620px] container">
 
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         {/* <motion.div
@@ -29,12 +29,12 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
+          className="flex flex-col gap-6 mt-6 max-sm:mt-0 text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
           <div>
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[80px] mb-6">
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[80px] max-sm:text-[48px] mb-6">
               Hello, I&apos;m{' '}
             </p>
-            <p className="text-8xl h-[180px]">
+            <p className="text-8xl max-sm:text-[52px] h-[180px] max-sm:h-[100px]">
               <TypeAnimation
                 sequence={['Frontend Developer', 1000, 'Mobile Developer', 1000, 'Graphic Designer', 1000]}
                 wrapper="span"
@@ -56,11 +56,11 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-3xl text-gray-400 my-5 max-w-[600px]">
+          className="text-3xl max-sm:text-[26px] max-sm:text-center text-gray-400 my-5 max-w-[600px]">
           Providing the best project exprience
         </motion.p>
         <motion.div variants={slideInFromLeft(1)}>
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-10 max-sm:flex-col">
             <Link
               href="https://drive.google.com/file/d/1zXOx0gTpj3U6kZ77incHmREp-7z3LEsi/view?usp=sharing"
               target="_blank"
@@ -72,7 +72,7 @@ const HeroContent = () => {
                 </span>
               </div>
             </Link>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <Link
                 href="https://github.com/Vovababiichuk"
                 target="_blank"
@@ -98,7 +98,7 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center">
+        className="w-full h-full flex justify-center items-center max-sm:hidden">
         <Image src="/mainIconsdark.svg" alt="work icons" height={600} width={600} />
       </motion.div>
 
