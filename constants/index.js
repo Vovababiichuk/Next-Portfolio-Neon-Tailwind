@@ -240,12 +240,12 @@ export const Skill_fullstack = [
   //   width: 90,
   //   height: 90,
   // },
-  {
-    skill_name: "jQuery",
-    Image: "/jquery.png",
-    width: 75,
-    height: 75,
-  },
+  // {
+  //   skill_name: "jQuery",
+  //   Image: "/jquery.png",
+  //   width: 75,
+  //   height: 75,
+  // },
 ];
 
 

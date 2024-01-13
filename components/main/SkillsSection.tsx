@@ -7,11 +7,11 @@ import MainTitle from '../sub/MainTitle';
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className='mt-[-60px]'>
+    <section id="skills" className='mt-[-60px] max-sm:mt-[-180px]'>
       <MainTitle title="My Skills" subTitleType="skills" />
 
       <div
-        className="m-auto flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-140px] z-[140] py-6"
+        className="m-auto flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden mt-[-140px] max-sm:mt-[-240px] z-[140] py-6"
         style={{ transform: 'scale(0.9)' }}>
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center z-[150]">
           {Skill_frontend.map((image, index) => (

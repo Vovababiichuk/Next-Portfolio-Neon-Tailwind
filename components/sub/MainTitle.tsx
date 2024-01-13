@@ -14,17 +14,17 @@ const AboutTitle = () => {
     <motion.div
       variants={slideInFromLeft(0.5)}
       className="mt-10 text-[40px] max-sm:text-[26px] text-white font-medium mt-[10px] max-sm:mt-[-10px] text-center mb-[15px] max-sm:mb-[44px] relative max-sm:w-[320px]">
-        <div className='text-gray-400'>
-          Building{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
-            apps
-          </span>{' '}
-          with{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
-            creative
-          </span>{' '}
-          solutions
-        </div>
+      <div className="text-gray-400">
+        Building{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
+          apps
+        </span>{' '}
+        with{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
+          creative
+        </span>{' '}
+        solutions
+      </div>
       <div className="absolute top-28 max-sm:top-32 left-[45%] max-sm:left-[40%] animate-bounce">
         <ChevronsDown size={50} className="text-[#b49bff] w-20 max-sm:w-16 h-20 max-sm:h-16 " />
       </div>
@@ -36,18 +36,20 @@ const SkillsTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[40px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
-      Making{' '}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-        apps
-      </span>{' '}
-      with{' '}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
-        modern
-      </span>{' '}
-      technologies
-      <div className="absolute top-28 left-[45%] animate-bounce">
-        <ChevronsDown size={50} className="text-[#b49bff] w-20 h-20" />
+      className="mt-10 text-[40px] max-sm:text-[26px] text-white font-medium mt-[10px] max-sm:mt-[-10px] text-center mb-[15px] max-sm:mb-[44px] relative">
+      <div className="text-gray-400">
+        Making{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
+          apps
+        </span>{' '}
+        with{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6 max-sm:text-gray-400">
+          modern
+        </span>{' '}
+        technologies
+      </div>
+      <div className="absolute top-28 max-sm:top-32 left-[45%] max-sm:left-[40%] animate-bounce">
+        <ChevronsDown size={50} className="text-[#b49bff] w-20 max-sm:w-16 h-20 max-sm:h-16" />
       </div>
     </motion.div>
   );
