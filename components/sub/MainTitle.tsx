@@ -13,13 +13,13 @@ const AboutTitle = () => {
   return (
     <motion.div
       variants={slideInFromLeft(0.5)}
-      className="mt-10 text-[40px] text-white font-medium mt-[10px] text-center mb-[15px] relative">
+      className="mt-10 text-[40px] max-sm:text-[26px] text-white font-medium mt-[10px] text-center mb-[15px] relative w-[320px]">
       Building{' '}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6">
         apps
       </span>{' '}
       with{' '}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] mb-6">
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[46px] max-sm:text-[26px] mb-6">
         creative
       </span>{' '}
       solutions
@@ -79,9 +79,9 @@ const MainTitle = ({ title, subTitleType }: IMainTitle) => {
         <div className="w-full h-auto flex flex-col items-center justify-center mt-10">
           <motion.div
             variants={slideInFromTop}
-            className="Welcome-box-title opacity-[0.9] mb-10 px-[100px]">
-            <SparklesIcon className="text-[#b49bff] mr-[10px] h-12 w-12" />
-            <h1 className="Welcome-text text-[60px] mb-2">{title}</h1>
+            className="Welcome-box-title opacity-[0.9] mb-10 px-[100px] max-sm:px-[24px]">
+            <SparklesIcon className="text-[#b49bff] mr-[10px] max-sm:mr-[4px] h-12 max-sm:h-8 w-12 max-sm:w-8 max-sm:mt-[-8px]" />
+            <h1 className="Welcome-text text-[60px] max-sm:text-[40px] mb-2">{title}</h1>
           </motion.div>
           {subTitleType === 'about' && <AboutTitle />}
           {subTitleType === 'skills' && <SkillsTitle />}
