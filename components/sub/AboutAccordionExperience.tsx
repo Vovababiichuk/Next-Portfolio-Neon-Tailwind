@@ -9,10 +9,10 @@ import React from 'react';
 
 const AboutAccordionExperience = () => {
   return (
-    <div className="z-[100] w-full max-w-[580px] m-auto">
-      <Accordion className="w-[580px]" type="single" collapsible>
+    <div className="z-[100] w-full max-w-[580px] max-sm:max-w-[270px] m-auto max-sm:mt-6">
+      <Accordion className="w-[580px] max-sm:w-[270px]" type="single" collapsible>
         <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-1">
-          <AccordionTrigger className="text-[21px] uppercase">
+          <AccordionTrigger className="text-[21px] uppercase text-left">
             (2022-2024) - Freelancing
           </AccordionTrigger>
           <AccordionContent className="text-left flex flex-col gap-4 ">
@@ -20,7 +20,7 @@ const AboutAccordionExperience = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-2">
-          <AccordionTrigger className="text-[21px] uppercase">
+          <AccordionTrigger className="text-[21px] uppercase text-left">
             (2023) - Practice in UANODES COMPANY
           </AccordionTrigger>
           <AccordionContent className="text-left flex flex-col gap-4">
@@ -39,7 +39,7 @@ const AboutAccordionExperience = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-3">
-          <AccordionTrigger className="text-[21px] uppercase ">
+          <AccordionTrigger className="text-[21px] uppercase text-left">
             (2022) - WORK AT STOCK EXCHANGES
           </AccordionTrigger>
           <AccordionContent>
@@ -55,7 +55,7 @@ const AboutAccordionExperience = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-4">
-          <AccordionTrigger className="text-[21px] uppercase ">
+          <AccordionTrigger className="text-[21px] uppercase text-left">
             (2013-2021) - Sales Industry
           </AccordionTrigger>
           <AccordionContent>

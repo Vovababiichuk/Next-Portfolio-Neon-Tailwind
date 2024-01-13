@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <StarsCanvas />
           <Navbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
           <ScrollToTopButton />
       </body>
     </html>
