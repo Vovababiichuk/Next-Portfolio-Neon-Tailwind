@@ -34,7 +34,7 @@ const HeroContent = () => {
             <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[80px] max-sm:text-[48px] mb-6">
               Hello, I&apos;m{' '}
             </p>
-            <p className="text-8xl max-sm:text-[52px] h-[180px] max-sm:h-[100px]">
+            <p className="text-8xl max-sm:text-[52px] h-[180px] max-sm:h-[100px] max-sm:leading-[60px]">
               <TypeAnimation
                 sequence={['Frontend Developer', 1000, 'Mobile Developer', 1000, 'Graphic Designer', 1000]}
                 wrapper="span"
