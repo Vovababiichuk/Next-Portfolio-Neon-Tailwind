@@ -38,7 +38,7 @@ const projectsData = [
       techData.chakraUi,
     ],
     gitUrl: 'https://github.com/Vovababiichuk',
-    previewUrl: 'https://fascinating-daffodil-76e1c9.netlify.app/',
+    previewUrl: 'https://sollers-group.netlify.app/',
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ const ProjectsSection = () => {
   const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
 
   return (
-    <section id="projects" className="mt-[-90px] pb-36 ">
+    <section id="projects" className="mt-[-90px] max-sm:mt-[-280px] pb-36 ">
       <MainTitle title="My Projects" subTitleType="projects" />
       <div className="container">
         <div className="text-[#b49bff] flex flex-row items-center justify-center gap-2 py-6 z-50 relative mt-[-90px] mb-10">

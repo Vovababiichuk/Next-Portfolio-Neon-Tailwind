@@ -46,7 +46,7 @@ const MobileNav = () => {
   };
 
   return (
-    <Sheet>
+    <Sheet open={close} onOpenChange={handleCloseMenu}>
       <SheetTrigger>
         <div className="group flex flex-col gap-y-2 cursor-pointer xl:hidden group items-end">
           <div className="w-7 h-[2px] bg-white transition-all"></div>
@@ -57,7 +57,7 @@ const MobileNav = () => {
       <SheetContent className="z-[3000] bg-[#0c081e] ">
         <SheetHeader>
           <SheetTitle>
-            <Link href="/" className="h-auto w-auto flex flex-row items-center justify-center">
+            <Link href="/" className="h-auto w-auto flex flex-col items-center justify-center">
               <Image
                 src="/logo6.svg"
                 alt="logo"
