@@ -16,11 +16,11 @@ import { PiTelegramLogo } from 'react-icons/pi';
 const FooterSection = () => {
   return (
     <div className="container">
-      <div className="relative w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-50">
+      <div className="relative w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-50 max-sm:mt-[-80px]">
         <div className="w-full flex flex-col items-center justify-center m-auto">
           <div className="w-full h-full flex flex-row items-center justify-between flex-wrap mb-16">
 
-            <div className="min-w-[200px] h-auto flex flex-col items-center justify-center">
+            <div className="min-w-[200px] h-auto flex flex-col items-center justify-center max-sm:mb-8">
               <Link href="#home" className="h-auto w-auto flex flex-row items-center">
                 <Image
                   src="/nick.svg"
@@ -33,7 +33,7 @@ const FooterSection = () => {
               </Link>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 max-sm:m-auto">
               <Link
                 href="https://github.com/Vovababiichuk"
                 target="_blank"
@@ -54,7 +54,7 @@ const FooterSection = () => {
               </Link>
             </div>
 
-            <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+            <div className="min-w-[200px] h-auto flex flex-col items-center justify-start max-sm:hidden">
               <div className="flex items-center justify-between text-[18px] gap-6">
                 <Link
                   href="#about"
