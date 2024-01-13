@@ -30,7 +30,7 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
 
   return (
     <div
-      className="relative w-[392px] h-[500px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]"
+      className="relative w-[392px] h-[500px] max-sm:h-[460px] overflow-hidden rounded-lg shadow-2xl shadow-[#2A0E61] border border-[#2f2158] card-shadow-project z-[999]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}>
       <Link href={previewUrl} target="_blank">
@@ -39,7 +39,7 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
           alt={title}
           width={1000}
           height={1000}
-          className="h-[280px] bg-cover bg-blend-multiply"
+          className="h-[280px] max-sm:h-[200px] bg-cover bg-blend-multiply"
         />
 
         {isHovered && (
@@ -64,9 +64,11 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
           </div>
         )}
 
-        <div className="relative p-4">
-          <h1 className="text-2xl font-semibold text-[#b49bff]">{title}</h1>
-          <p className="mt-2 text-gray-300 h-[106px]">{description}</p>
+        <div className="relative p-4 flex flex-col justify-between max-sm:h-[264px]">
+          <div>
+            <h1 className="text-2xl font-semibold text-[#b49bff]">{title}</h1>
+            <p className="mt-2 text-gray-300 h-[106px]">{description}</p>
+          </div>
           <div className="flex gap-2 items-center">
             {tech.map((techItem, index) => (
               <div key={index} className={clsx('', getTechImageClass(techItem))}>
