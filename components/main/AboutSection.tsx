@@ -7,7 +7,7 @@ import AboutContent from '../sub/AboutContent';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="mt-[-60px]">
+    <section id="about" className="mt-[-60px] max-sm:mt-[-200px]">
       <MainTitle title="About Me" subTitleType="about" />
       <div className="container">
         <div className="relative">

@@ -11,8 +11,8 @@ export default function Home() {
         <Hero />
         <AboutSection />
         <AboutTabs />
-        <SkillsSection />
-        <ProjectsSection />
+        {/* <SkillsSection /> */}
+        {/* <ProjectsSection /> */}
       </div>
     </main>
   );
