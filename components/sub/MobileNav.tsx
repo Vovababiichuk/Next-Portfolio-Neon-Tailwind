@@ -73,7 +73,7 @@ const MobileNav = () => {
                 return (
                   <>
                     <Link
-                      href={`#${link.path}`}
+                      href="#projects"
                       className="cursor-pointer uppercase hover:text-primary transition duration-100 ease-in-out w-full">
                       <span
                         onClick={handleCloseMenu}
