@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="h-auto w-auto flex flex-row items-center">
           <Image
-            src="/logo6.svg"
+            src="/logo-logo.svg"
             alt="logo"
             width={55}
             height={55}

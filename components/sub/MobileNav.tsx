@@ -11,7 +11,7 @@ import {
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Link as ScrollLink } from 'react-scroll';
+// import { Link as ScrollLink } from 'react-scroll';
 import { GithubIcon, Linkedin } from 'lucide-react';
 import { PiTelegramLogo } from 'react-icons/pi';
 import { useState } from 'react';
@@ -59,7 +59,7 @@ const MobileNav = () => {
           <SheetTitle>
             <Link href="/" className="h-auto w-auto flex flex-col items-center justify-center">
               <Image
-                src="/logo6.svg"
+                src="/logo-logo.svg"
                 alt="logo"
                 width={86}
                 height={86}
