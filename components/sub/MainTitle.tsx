@@ -95,7 +95,7 @@ const MainTitle = ({ title, subTitleType }: IMainTitle) => {
         </div>
       </div>
 
-      <div className={`w-full flex items-start justify-center absolute max-sm:mt-[200px] ${subTitleType === 'projects' ? 'max-sm:top-[160px]' : ''} max-sm:w-[320px]`}>
+      <div className={`w-full flex items-start justify-center absolute max-sm:mt-[200px] ${subTitleType === 'projects' ? 'max-sm:top-[216px]' : ''} max-sm:w-[320px]`}>
         <video
           loop
           muted
