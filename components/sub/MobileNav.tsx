@@ -81,7 +81,7 @@ const MobileNav = () => {
                       duration={500}
                       className="cursor-pointer uppercase hover:text-primary transition duration-100 ease-in-out w-full">
                       <span
-                        // onClick={handleCloseMenu}
+                        onClick={handleCloseMenu}
                         key={link.path}
                         className="block border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[20px] rounded-full w-full text-center hover:bg-[#18054e61] hover:cursor-pointer transition duration-300 ease-in-out">
                         {link.name}
