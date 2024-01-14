@@ -75,7 +75,7 @@ const FooterSection = () => {
             </div>
           </div>
 
-          <div className="mb-[20px] text-[15px] text-center text-gray-400">
+          <div className="mb-[20px] text-[15px] text-center text-gray-400 max-sm:mt-[-30px]">
             &copy; Volodymyr | Code_Pro 2024 Inc. All rights reserved
           </div>
         </div>
