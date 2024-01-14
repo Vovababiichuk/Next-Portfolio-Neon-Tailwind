@@ -11,7 +11,7 @@ import {
 
 import Image from 'next/image';
 import Link from 'next/link';
-// import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 import { GithubIcon, Linkedin } from 'lucide-react';
 import { PiTelegramLogo } from 'react-icons/pi';
 import { useState } from 'react';
@@ -24,7 +24,7 @@ const links = [
   {
     path: 'about',
     name: 'About',
-    offset: 0,
+    offset: 190,
   },
   {
     path: 'skills',
@@ -34,7 +34,7 @@ const links = [
   {
     path: 'projects',
     name: 'Projects',
-    offset: 0,
+    offset: 230,
   },
 ];
 
@@ -72,16 +72,21 @@ const MobileNav = () => {
               {links.map((link) => {
                 return (
                   <>
-                    <Link
-                      href="#projects"
+                    <ScrollLink
+                      activeClass="active"
+                      to={link.path}
+                      spy={true}
+                      smooth={true}
+                      offset={link.offset}
+                      duration={500}
                       className="cursor-pointer uppercase hover:text-primary transition duration-100 ease-in-out w-full">
                       <span
-                        onClick={handleCloseMenu}
+                        // onClick={handleCloseMenu}
                         key={link.path}
                         className="block border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[20px] rounded-full w-full text-center hover:bg-[#18054e61] hover:cursor-pointer transition duration-300 ease-in-out">
                         {link.name}
                       </span>
-                    </Link>
+                    </ScrollLink>
                   </>
                 );
               })}
