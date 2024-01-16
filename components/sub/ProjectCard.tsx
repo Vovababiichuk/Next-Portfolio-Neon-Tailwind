@@ -43,7 +43,7 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
         />
 
         {isHovered && (
-          <div className="absolute top-0 left-0 w-full h-full text-white items-center flex flex-col gap-10 justify-center card-icons">
+          <div className="absolute top-0 left-0 w-full h-full text-white items-center flex flex-col gap-10 justify-center card-icons   bg-gradient-to-br from-blue-950/40 transition-all duration-300">
             <div className="flex gap-5">
               <Link
                 href={previewUrl}
