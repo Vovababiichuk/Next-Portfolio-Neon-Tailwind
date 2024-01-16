@@ -159,7 +159,7 @@
 }
 
 .chakraUi-tech {
-  @apply ml-1
+  @apply ml-1;
 }
 
 /* shadow */
@@ -211,7 +211,6 @@
   filter: blur(3px);
   scale: 1.01;
 } */
-
 
 /* sharp-image */
 
@@ -278,4 +277,9 @@ html {
   body {
     overflow-x: hidden;
   }
+}
+
+.hover-card {
+  background: linear-gradient(-45deg, #ec65b7 0%, #05e0d8 100%);
+  box-shadow: -9px 11px 25px 5px #323141;
 }

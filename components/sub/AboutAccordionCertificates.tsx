@@ -25,7 +25,8 @@ const AboutAccordionCertificates = () => {
             Java Script
           </AccordionTrigger>
           <AccordionContent>
-            <Image src="/certificates/solo-certificate.jpg" alt="certificate" width={550} height={550} />
+            <Image className='mb-4' src="/certificates/solo-certificate2.png" alt="certificate" width={550} height={550} />
+            <Image src="/certificates/solo-certificate.png" alt="certificate" width={550} height={550} />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
