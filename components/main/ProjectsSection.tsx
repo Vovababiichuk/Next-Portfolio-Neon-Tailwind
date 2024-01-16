@@ -19,6 +19,8 @@ const techData = {
   typeScript: '/ts.png',
   styledComponents: '/styled-components.png',
   chakraUi: '/chakra.png',
+  express: '/express.png',
+  handlebars: '/handlebars.png',
 };
 
 const projectsData = [
@@ -89,6 +91,16 @@ const projectsData = [
     tech: [techData.react, techData.ionic],
     gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
+  },
+  {
+    id: 7,
+    src: '/projects/grud.png',
+    title: 'GRUD - Purchase, Spotify',
+    description: 'CRUD (Create, Read, Update, Delete) are the basic operations that can be performed on data in programs.',
+    tag: ['All', 'Web'],
+    tech: [techData.javaScript, techData.html, techData.css, techData.express, techData.handlebars, techData.sass],
+    gitUrl: 'https://github.com/Vovababiichuk/js-crud-DONE',
+    previewUrl: 'https://github.com/Vovababiichuk/js-crud-DONE',
   },
 ];
 
