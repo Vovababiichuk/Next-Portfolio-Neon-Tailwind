@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
-import { Eye, Github, GithubIcon, LinkIcon } from 'lucide-react';
+import { Eye, GithubIcon, } from 'lucide-react';
 
 interface IProps {
   src: string;
@@ -11,7 +11,7 @@ interface IProps {
   tag: string[];
   tech: string[];
   previewUrl: string;
-  gitUrl: string;
+  gitUrl: string | null;
 }
 
 const getTechImageClass = (techItem: string): string => {
@@ -51,16 +51,16 @@ const ProjectCard = ({ src, title, description, tag, tech, previewUrl, gitUrl }:
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <Eye className="text-white w-16 h-16 cursor-pointer" />
               </Link>
-              {gitUrl && (
+              {gitUrl ? (
                 <Link
                   href={gitUrl}
                   target="_blank"
                   className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                   <GithubIcon className="text-white w-16 h-16 cursor-pointer" />
                 </Link>
-              )}
+              ): null}
             </div>
-            <Image src="/nick.svg" alt="logo" width={300} height={300} className="block" />
+            <Image src="/nick.svg" alt="logo" width={290} height={290} className="block" />
           </div>
         )}
 
