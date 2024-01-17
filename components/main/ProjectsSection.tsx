@@ -24,8 +24,29 @@ const techData = {
 };
 
 const projectsData = [
+ 
   {
     id: 1,
+    src: '/projects/music.png',
+    title: 'Music Streaming',
+    description: 'Animation landing page for a music streaming service.',
+    tag: ['All', 'Web'],
+    tech: [techData.next, techData.tailwind, techData.framer],
+    gitUrl: 'https://github.com/Vovababiichuk',
+    previewUrl: 'https://music-website-next-js-tailwind-css-and-framer-motion-9gh4.vercel.app/',
+  },
+  {
+    id: 2,
+    src: '/projects/password.png',
+    title: 'Password Generator',
+    description: 'Generate a random password with different options.',
+    tag: ['All', 'Web'],
+    tech: [techData.react, techData.sass, techData.javaScript],
+    gitUrl: 'https://github.com/Vovababiichuk',
+    previewUrl: 'https://react-password-generator-done.vercel.app/',
+  },
+  {
+    id: 3,
     src: '/projects/sollers.png',
     title: 'Security Services',
     description:
@@ -43,26 +64,6 @@ const projectsData = [
     previewUrl: 'https://sollers-group.netlify.app/',
   },
   {
-    id: 2,
-    src: '/projects/music.png',
-    title: 'Music Streaming',
-    description: 'Animation landing page for a music streaming service.',
-    tag: ['All', 'Web'],
-    tech: [techData.next, techData.tailwind, techData.framer],
-    gitUrl: 'https://github.com/Vovababiichuk',
-    previewUrl: 'https://music-website-next-js-tailwind-css-and-framer-motion-9gh4.vercel.app/',
-  },
-  {
-    id: 3,
-    src: '/projects/password.png',
-    title: 'Password Generator',
-    description: 'Generate a random password with different options.',
-    tag: ['All', 'Web'],
-    tech: [techData.react, techData.sass, techData.javaScript],
-    gitUrl: 'https://github.com/Vovababiichuk',
-    previewUrl: 'https://react-password-generator-done.vercel.app/',
-  },
-  {
     id: 4,
     src: '/projects/marketing.png',
     title: 'Matrketing Agency',
@@ -74,6 +75,16 @@ const projectsData = [
   },
   {
     id: 5,
+    src: '/projects/dolla.png',
+    title: 'Virtual Banking',
+    description: 'React Landing page for a virtual banking service.',
+    tag: ['All', 'Web'],
+    tech: [techData.react, techData.styledComponents, techData.javaScript, techData.html, techData.css],
+    gitUrl: 'https://github.com/Vovababiichuk/React-Website-using-Styled-Components-and-Smooth-Scroll-DONE',
+    previewUrl: 'https://react-website-using-styled-components-and-smooth-scroll-done.vercel.app/',
+  },
+  {
+    id: 6,
     src: '/projects/menu.png',
     title: 'Menu Ordering',
     description: 'Ordering system for a restaurant.',
@@ -83,7 +94,7 @@ const projectsData = [
     previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
   },
   {
-    id: 6,
+    id: 7,
     src: '/projects/bmi.png',
     title: 'BMI Calculator',
     description: 'Simple app that calculates your body mass index (BMI).',
@@ -93,7 +104,7 @@ const projectsData = [
     previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
   },
   {
-    id: 7,
+    id: 8,
     src: '/projects/grud.png',
     title: 'GRUD - Purchase, Spotify',
     description: 'CRUD (Create, Read, Update, Delete) are the basic operations that can be performed on data in programs.',
