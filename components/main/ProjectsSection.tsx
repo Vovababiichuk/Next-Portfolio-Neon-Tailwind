@@ -89,7 +89,7 @@ const projectsData = [
     description: 'Ordering system for a restaurant.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.typeScript, techData.styledComponents, techData.chakraUi],
-    gitUrl: 'https://github.com/Vovababiichuk',
+    gitUrl: 'https://github.com/Vovababiichuk/React-TypeScript-pizza',
     previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
   },
   {
