@@ -29,6 +29,14 @@ const AboutAccordionCertificates = () => {
             <Image src="/certificates/solo-certificate.png" alt="certificate" width={550} height={550} />
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem className="border-b-[3px] border-[#2f2158] button-" value="item-3">
+          <AccordionTrigger className="text-[21px] uppercase text-left">
+            English Level
+          </AccordionTrigger>
+          <AccordionContent>
+            <Image className='mb-4' src="/certificates/certificate-english.png" alt="certificate" width={550} height={550} />
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
     </div>
   );
