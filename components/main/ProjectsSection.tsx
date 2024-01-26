@@ -98,7 +98,7 @@ const projectsData = [
     title: 'BMI Calculator',
     description: 'Simple app that calculates your body mass index (BMI).',
     tag: ['All', 'Mobile'],
-    tech: [techData.react, techData.ionic],
+    tech: [techData.react, techData.typeScript, techData.ionic],
     gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
   },
