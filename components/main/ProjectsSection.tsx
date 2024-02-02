@@ -31,7 +31,7 @@ const projectsData = [
     description: 'Animation landing page for a music streaming service.',
     tag: ['All', 'Web'],
     tech: [techData.next, techData.tailwind, techData.framer],
-    gitUrl: 'https://github.com/Vovababiichuk/Music-Website-Next-JS-Tailwind-CSS-And-Framer-Motion',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://music-website-next-js-tailwind-css-and-framer-motion-9gh4.vercel.app/',
   },
   {
@@ -41,7 +41,7 @@ const projectsData = [
     description: 'Generate a random password with different options.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.sass, techData.javaScript],
-    gitUrl: 'https://github.com/Vovababiichuk/react-password-generator-DONE',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://react-password-generator-done.vercel.app/',
   },
   {
