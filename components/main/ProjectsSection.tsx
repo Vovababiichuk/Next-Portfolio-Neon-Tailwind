@@ -79,7 +79,7 @@ const projectsData = [
     description: 'React Landing page for a virtual banking service.',
     tag: ['All', 'Web'],
     tech: [techData.react, techData.styledComponents, techData.javaScript, techData.html, techData.css],
-    gitUrl: 'https://github.com/Vovababiichuk/React-Website-using-Styled-Components-and-Smooth-Scroll-DONE',
+    gitUrl: 'https://github.com/Vovababiichuk',
     previewUrl: 'https://react-website-using-styled-components-and-smooth-scroll-done.vercel.app/',
   },
   {
