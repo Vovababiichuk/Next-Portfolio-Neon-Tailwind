@@ -1,5 +1,17 @@
 export const Skill_frontend = [
   {
+    skill_name: "Flutter",
+    Image: "/flutter.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Dart",
+    Image: "/dart.svg",
+    width: 70,
+    height: 70,
+  },
+  {
     skill_name: "Html",
     Image: "/html.png",
     width: 70,
