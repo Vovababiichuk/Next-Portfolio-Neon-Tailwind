@@ -5,11 +5,12 @@ import StarsCanvas from '@/components/main/StarBackground';
 import Navbar from '@/components/main/Navbar';
 import Footer from '@/components/main/FooterSection';
 import ScrollToTopButton from '@/components/main/ScrollToTopButton';
+
 const inter = Days_One({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Volodymyr | Code_PRO',
-  description: 'Frontend & Mobile Developer Portfolio',
+  title: "Volodymyr Babiichuk | Code_PRO: Frontend, Mobile, React, Next.js, Java Script, Type Script, Tailwind CSS, and Flutter Developer Portfolio and Services",
+  description: "Explore the diverse portfolio of Volodymyr Babiichuk, showcasing expertise in frontend development using React and Next.js, along with styling proficiency in Tailwind CSS and SCSS. Additionally, delve into mobile app development, including Flutter, Dart and React Native projects. Discover innovative solutions and engaging designs tailored to modern digital experiences.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
