@@ -10,7 +10,7 @@ const inter = Days_One({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Volodymyr Babiichuk | Code_PRO: Frontend, Mobile, React, Next.js, Java Script, Type Script, Tailwind CSS, and Flutter Developer Portfolio and Services",
-  description: "Explore the diverse portfolio of Volodymyr Babiichuk, showcasing expertise in frontend development using React and Next.js, along with styling proficiency in Tailwind CSS and SCSS. Additionally, delve into mobile app development, including Flutter, Dart and React Native projects. Discover innovative solutions and engaging designs tailored to modern digital experiences.",
+  description: "Explore Volodymyr Babiychuk's diverse portfolio and services, showcasing his expertise in Frontend development with React, Next.js, Java Script, and Type Script, as well as styling skills with Tailwind CSS and SCSS. In addition, delve into mobile app development, including projects in Flutter, Dart, and React Native. Discover innovative solutions and engaging designs tailored to the modern digital experience.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
