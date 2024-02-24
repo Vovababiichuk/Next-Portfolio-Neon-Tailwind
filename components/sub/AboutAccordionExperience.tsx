@@ -25,9 +25,7 @@ const AboutAccordionExperience = () => {
           </AccordionTrigger>
           <AccordionContent className="text-left flex flex-col gap-4">
             <p className="leading-7 font-sans text-[19px]">
-              I conducted a comprehensive analysis of the Frontend section of the project,
-              collaborated with Backend developers to evaluate the code logic, and addressed
-              significant issues, including outdated libraries and suboptimal code.
+            On the project, I was engaged in updating the Frontend part of the product and analyzed the logic of the project code together with Backend developers.
             </p>
             <p className="leading-7 font-sans text-[19px]">
               This process resulted in the decision to rebuild the project, aiming for enhanced

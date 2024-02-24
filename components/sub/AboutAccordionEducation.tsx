@@ -40,10 +40,19 @@ const AboutAccordionEducation = () => {
 								</p>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
 									Covering all the fundamental concepts for Flutter development,
-									this is the <span className='text-[#00ffffff]'>most comprehensive</span> Flutter course available online.
+									this is the{' '}
+									<span className='text-[#00ffffff]'>most comprehensive</span>{' '}
+									Flutter course available online.
 								</p>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									Author: <a href='https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/' target='_blank' className='text-[#eeff53] underline text-[20px]'>Dr.Angela Yu</a>
+									Author:{' '}
+									<a
+										href='https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/'
+										target='_blank'
+										className='text-[#eeff53] underline text-[20px]'
+									>
+										Dr.Angela Yu
+									</a>
 								</p>
 							</div>
 							<div>
@@ -57,12 +66,18 @@ const AboutAccordionEducation = () => {
 							</div>
 						</div>
 						<div className='mt-8'>
-							<Image className='block m-auto' src='/education/flutter-course.jpg' alt='udemy course' width={340} height={340} />
+							<Image
+								className='block m-auto'
+								src='/education/flutter-course.jpg'
+								alt='udemy course'
+								width={340}
+								height={340}
+							/>
 						</div>
 					</AccordionContent>
 				</AccordionItem>
 				<AccordionItem
-					className='border-b-[3px] border-[#2f2158]' 
+					className='border-b-[3px] border-[#2f2158]'
 					value='item-2'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
@@ -78,12 +93,14 @@ const AboutAccordionEducation = () => {
 							<div>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
 									Profession{' '}
-									<span className='text-[#00ffffff]'>Fullstack Developer</span> from
-									scratch to employment
+									<span className='text-[#00ffffff]'>Fullstack Developer</span>{' '}
+									from scratch to employment
 								</p>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
 									Developer who combines knowledge of{' '}
-									<span className='text-[#00ffffff]'>Front-end and Back-end</span>{' '}
+									<span className='text-[#00ffffff]'>
+										Front-end and Back-end
+									</span>{' '}
 									developers. Such specialists can create any{' '}
 									<span className='text-[#00ffffff]'>
 										website, mobile or PC application
@@ -95,13 +112,20 @@ const AboutAccordionEducation = () => {
 									I studied such technologies at school:{' '}
 									<span className='text-[#00ffffff]'>
 										Html, Css, Java Script, Type Script, React.js, Redux, Styled
-										Components, Formic, Next.js, i18n, Axios, Moment.js, Express.js,
-										Nest,js, SQL
+										Components, Formic, Next.js, i18n, Axios, Moment.js,
+										Express.js, Nest,js, SQL
 									</span>{' '}
 									and more.
 								</p>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									Mentor: <a href='https://0uabrains.notion.site/4d96d8bf292140279d1b53d71da4c221' target='_blank' className='text-[#eeff53] underline text-[20px]'>Kirill Turaev</a>
+									Mentor:{' '}
+									<a
+										href='https://0uabrains.notion.site/4d96d8bf292140279d1b53d71da4c221'
+										target='_blank'
+										className='text-[#eeff53] underline text-[20px]'
+									>
+										Kirill Turaev
+									</a>
 								</p>
 							</div>
 							<div>
@@ -115,7 +139,13 @@ const AboutAccordionEducation = () => {
 							</div>
 						</div>
 						<div>
-							<Image className='mt-8 block m-auto rounded' src='/education/fullstack2.png' alt='it-brains' width={340} height={340} />
+							<Image
+								className='mt-8 block m-auto rounded'
+								src='/education/fullstack2.png'
+								alt='it-brains'
+								width={340}
+								height={340}
+							/>
 						</div>
 					</AccordionContent>
 				</AccordionItem>
@@ -135,16 +165,18 @@ const AboutAccordionEducation = () => {
 						<div className='flex flex-col gap-4'>
 							<div>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									Course <span className='text-[#00ffffff]'>Website Layout</span>{' '}
-									from 0 to 1
+									Course{' '}
+									<span className='text-[#00ffffff]'>Website Layout</span> from
+									0 to 1
 								</p>
 								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
 									During the course, I studied{' '}
 									<span className='text-[#00ffffff]'>
 										Html, Css, Gulp, Git, SASS, BEM, JQuery
 									</span>
-									. <span className='text-[#00ffffff]'>Landing page</span> layout
-									and <span className='text-[#00ffffff]'>Online Store</span>{' '}
+									. <span className='text-[#00ffffff]'>Landing page</span>{' '}
+									layout and{' '}
+									<span className='text-[#00ffffff]'>Online Store</span>{' '}
 									development.
 								</p>
 							</div>
@@ -159,7 +191,13 @@ const AboutAccordionEducation = () => {
 							</div>
 						</div>
 						<div>
-							<Image className='mt-8 block m-auto rounded' src='/education/markup.png' alt='it-brains' width={340} height={340} />
+							<Image
+								className='mt-8 block m-auto rounded'
+								src='/education/markup.png'
+								alt='it-brains'
+								width={340}
+								height={340}
+							/>
 						</div>
 					</AccordionContent>
 				</AccordionItem>
