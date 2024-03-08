@@ -283,3 +283,17 @@ html {
   background: linear-gradient(-45deg, #ec65b7 0%, #05e0d8 100%);
   box-shadow: -9px 11px 25px 5px #323141;
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #9224de;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #8215cf;
+}
