@@ -41,7 +41,7 @@ const FooterSection = () => {
                 <GithubIcon className="text-white w-10 h-10 cursor-pointer" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/frontend-pro-volodymyr-059377298"
+                href="https://www.linkedin.com/in/👋-volodymyr-code-pro-059377298"
                 target="_blank"
                 className="bg-[#27233a] bg-opacity-50 p-[6px] rounded-lg border border-[1px] border-gray-400/20 hover:bg-[#27233a] duration-300 ease-in-out">
                 <Linkedin className="text-white w-10 h-10 cursor-pointer" />
