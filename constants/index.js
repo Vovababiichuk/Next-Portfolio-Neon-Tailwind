@@ -230,9 +230,9 @@ export const Skill_fullstack = [
   // },
   {
     skill_name: "Flutter",
-    Image: "/flutter.png",
-    width: 60,
-    height: 60,
+    Image: "/flutter.jpg",
+    width: 120,
+    height: 120,
   },
   {
     skill_name: "Dart",

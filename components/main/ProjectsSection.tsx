@@ -21,7 +21,7 @@ const techData = {
 	chakraUi: '/chakra.png',
 	express: '/express.png',
 	handlebars: '/handlebars.png',
-	flutter: '/flutter.png',
+	flutter: '/flutter-card.jpg',
 	dart: '/dart.svg',
 	flame: '/flame.png',
 }
