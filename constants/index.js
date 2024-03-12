@@ -202,11 +202,17 @@ export const Skill_ui = [
     height: 100,
   },
   {
-    skill_name: "Swiper",
-    Image: "/swiper.png",
-    width: 72,
-    height: 72,
+    skill_name: "Contentful",
+    Image: "/contentful.jpg",
+    width: 70,
+    height: 70,
   },
+  // {
+  //   skill_name: "Swiper",
+  //   Image: "/swiper.png",
+  //   width: 72,
+  //   height: 72,
+  // },
 ];
 
 export const Skill_fullstack = [
