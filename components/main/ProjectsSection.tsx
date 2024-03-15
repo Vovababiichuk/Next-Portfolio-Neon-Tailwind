@@ -24,8 +24,8 @@ const techData = {
 	flutter: '/flutter-card.jpg',
 	dart: '/dart.svg',
 	flame: '/flame.png',
+	firebase: '/firebase-card33.jpg',
 }
-
 const projectsData = [
 	{
 		id: 1,
@@ -148,6 +148,17 @@ const projectsData = [
 		tech: [techData.flutter, techData.dart, techData.flame],
 		gitUrl: 'https://github.com/Vovababiichuk/Flutter-Flappy-Bird-Game',
 		previewUrl: 'https://docs.flame-engine.org/latest/',
+	},
+	{
+		id: 10,
+		src: '/projects/dashboard-ui.png',
+		title: 'Responsive Dashboard UI',
+		description: 'Responsive Dashboard UI with Flutter & Dart.',
+		tag: ['All', 'Mobile'],
+		tech: [techData.flutter, techData.dart, techData.firebase],
+		gitUrl:
+			'https://github.com/Vovababiichuk/Flutter-Responsive-Dashboard-UI-App',
+		previewUrl: 'https://responsive-dashboard-ui-1c12b.firebaseapp.com/',
 	},
 ]
 

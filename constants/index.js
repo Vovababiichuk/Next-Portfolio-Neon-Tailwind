@@ -252,6 +252,12 @@ export const Skill_fullstack = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Firebase",
+    Image: "/firebase.png",
+    width: 56,
+    height: 56,
+  },
   // {
   //   skill_name: "Tauri",
   //   Image: "/tauri.svg",
