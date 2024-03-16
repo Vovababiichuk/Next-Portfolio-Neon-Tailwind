@@ -25,6 +25,8 @@ const techData = {
 	dart: '/dart.svg',
 	flame: '/flame.png',
 	firebase: '/firebase-card33.jpg',
+	gulp: '/gulp.jpg',
+	swiper: '/swiper.png',
 }
 const projectsData = [
 	{
@@ -32,7 +34,7 @@ const projectsData = [
 		src: '/projects/sollers.png',
 		title: 'Security Services',
 		description:
-			'Security services to protect data and privacy. Developed design and code for the product presentation for Sollers Group.',
+			'Freelance orders. Development of a website from scratch for Sollers Group: includes design and code development for product presentation and deployment. ',
 		tag: ['All', 'Web'],
 		tech: [
 			techData.react,
@@ -43,7 +45,7 @@ const projectsData = [
 			techData.chakraUi,
 		],
 		gitUrl: 'https://github.com/Vovababiichuk/sollers-group-distribution',
-		previewUrl: 'https://sollers-group.netlify.app/',
+		previewUrl: 'https://chic-froyo-86c473.netlify.app/',
 	},
 	{
 		id: 2,
@@ -79,6 +81,23 @@ const projectsData = [
 	},
 	{
 		id: 5,
+		src: '/projects/porten.png',
+		title: 'Shop PORTEN Wristwatch',
+		description: 'Freelance orders. Website layout in Figma and development of a mobile version of the site and deploy.',
+		tag: ['All', 'Web'],
+		tech: [
+			techData.gulp,
+			techData.sass,
+			techData.html,
+			techData.swiper,
+		],
+		gitUrl:
+			'https://github.com/Vovababiichuk/PORTEN-Watch-Shop-Gulp',
+		previewUrl:
+			'https://watch-shop-porten.netlify.app/',
+	},
+	{
+		id: 6,
 		src: '/projects/dolla.png',
 		title: 'Virtual Banking',
 		description: 'React Landing page for a virtual banking service.',
@@ -96,7 +115,7 @@ const projectsData = [
 			'https://react-website-using-styled-components-and-smooth-scroll-done.vercel.app/',
 	},
 	{
-		id: 6,
+		id: 7,
 		src: '/projects/menu.png',
 		title: 'Menu Ordering',
 		description:
@@ -112,7 +131,7 @@ const projectsData = [
 		previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
 	},
 	{
-		id: 7,
+		id: 8,
 		src: '/projects/grud.png',
 		title: 'GRUD - Purchase, Spotify',
 		description:
@@ -130,17 +149,18 @@ const projectsData = [
 		previewUrl: 'https://github.com/Vovababiichuk/js-crud-DONE',
 	},
 	{
-		id: 8,
-		src: '/projects/bmi.png',
-		title: 'BMI Calculator',
-		description: 'Simple app that calculates your body mass index (BMI).',
+		id: 9,
+		src: '/projects/dashboard-ui.png',
+		title: 'Responsive Dashboard UI',
+		description: 'Responsive Dashboard UI with Flutter & Dart.',
 		tag: ['All', 'Mobile'],
-		tech: [techData.react, techData.typeScript, techData.ionic],
-		gitUrl: 'https://github.com/Vovababiichuk/Ionic-MBI-CLI-React-TS-Training',
-		previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
+		tech: [techData.flutter, techData.dart, techData.firebase],
+		gitUrl:
+			'https://github.com/Vovababiichuk/Flutter-Responsive-Dashboard-UI-App',
+		previewUrl: 'https://responsive-dashboard-ui-1c12b.firebaseapp.com/',
 	},
 	{
-		id: 9,
+		id: 10,
 		src: '/projects/flappy.png',
 		title: 'Flappy Bird Game',
 		description: '2D game based on Flutter & Flame.',
@@ -150,15 +170,14 @@ const projectsData = [
 		previewUrl: 'https://docs.flame-engine.org/latest/',
 	},
 	{
-		id: 10,
-		src: '/projects/dashboard-ui.png',
-		title: 'Responsive Dashboard UI',
-		description: 'Responsive Dashboard UI with Flutter & Dart.',
+		id: 11,
+		src: '/projects/bmi.png',
+		title: 'BMI Calculator',
+		description: 'Simple app that calculates your body mass index (BMI).',
 		tag: ['All', 'Mobile'],
-		tech: [techData.flutter, techData.dart, techData.firebase],
-		gitUrl:
-			'https://github.com/Vovababiichuk/Flutter-Responsive-Dashboard-UI-App',
-		previewUrl: 'https://responsive-dashboard-ui-1c12b.firebaseapp.com/',
+		tech: [techData.react, techData.typeScript, techData.ionic],
+		gitUrl: 'https://github.com/Vovababiichuk/Ionic-MBI-CLI-React-TS-Training',
+		previewUrl: 'https://remarkable-piroshki-d40a60.netlify.app/',
 	},
 ]
 

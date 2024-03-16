@@ -156,6 +156,12 @@ export const Skill_backend = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Gulp",
+    Image: "/gulp.jpg",
+    width: 87,
+    height: 87,
+  },
   // {
   //   skill_name: "Prisma",
   //   Image: "/prisma.webp",
