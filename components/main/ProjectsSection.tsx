@@ -34,7 +34,7 @@ const projectsData = [
 		src: '/projects/sollers.png',
 		title: 'Security Services',
 		description:
-			'Freelance orders. Development of a website from scratch for Sollers Group: includes design and code development for product presentation and deployment. ',
+			'Freelance orders. Development of a website from scratch for Sollers Group: includes design and code development for product presentation.',
 		tag: ['All', 'Web'],
 		tech: [
 			techData.react,
@@ -83,7 +83,7 @@ const projectsData = [
 		id: 5,
 		src: '/projects/porten.png',
 		title: 'Shop PORTEN Wristwatch',
-		description: 'Freelance orders. Website layout in Figma and development of a mobile version of the site and deploy.',
+		description: 'Freelance orders. Website layout in Figma and development of a mobile version of the site.',
 		tag: ['All', 'Web'],
 		tech: [
 			techData.gulp,
