@@ -45,7 +45,7 @@ const projectsData = [
 			techData.chakraUi,
 		],
 		gitUrl: 'https://github.com/Vovababiichuk/sollers-group-distribution',
-		previewUrl: 'https://chic-froyo-86c473.netlify.app/',
+		previewUrl: 'https://slg-distribution.com/',
 	},
 	{
 		id: 2,
