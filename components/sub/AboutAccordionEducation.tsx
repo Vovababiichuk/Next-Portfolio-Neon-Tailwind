@@ -18,66 +18,6 @@ const AboutAccordionEducation = () => {
 			>
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158]'
-					value='item-1'
-				>
-					<AccordionTrigger className='text-[21px] uppercase text-left'>
-						<div>
-							(2024) - IT Course{' '}
-							<span className='text-[#00ffffff] capitalize'>
-								(Flutter Developer)
-							</span>
-						</div>
-					</AccordionTrigger>
-					<AccordionContent>
-						<div className='flex flex-col gap-4'>
-							<div>
-								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									The Complete{' '}
-									<span className='text-[#00ffffff]'>Flutter Development</span>{' '}
-									Bootcamp with <span className='text-[#00ffffff]'>Dart</span> -
-									created in collaboration with the{' '}
-									<span className='text-[#00ffffff]'>Google Flutter team</span>.
-								</p>
-								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									Covering all the fundamental concepts for Flutter development,
-									this is the{' '}
-									<span className='text-[#00ffffff]'>most comprehensive</span>{' '}
-									Flutter course available online.
-								</p>
-								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
-									Author:{' '}
-									<a
-										href='https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/'
-										target='_blank'
-										className='text-[#eeff53] underline text-[20px]'
-									>
-										Dr.Angela Yu
-									</a>
-								</p>
-							</div>
-							<div>
-								<a
-									className='py-1 px-6 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono'
-									href='https://www.udemy.com/course/flutter-bootcamp-with-dart/'
-									target='_blank'
-								>
-									Link
-								</a>
-							</div>
-						</div>
-						<div className='mt-8'>
-							<Image
-								className='block m-auto'
-								src='/education/flutter-course.jpg'
-								alt='udemy course'
-								width={340}
-								height={340}
-							/>
-						</div>
-					</AccordionContent>
-				</AccordionItem>
-				<AccordionItem
-					className='border-b-[3px] border-[#2f2158]'
 					value='item-2'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
@@ -195,6 +135,66 @@ const AboutAccordionEducation = () => {
 								className='mt-8 block m-auto rounded'
 								src='/education/markup.png'
 								alt='it-brains'
+								width={340}
+								height={340}
+							/>
+						</div>
+					</AccordionContent>
+				</AccordionItem>
+				<AccordionItem
+					className='border-b-[3px] border-[#2f2158]'
+					value='item-1'
+				>
+					<AccordionTrigger className='text-[21px] uppercase text-left'>
+						<div>
+							(2024) - IT Course{' '}
+							<span className='text-[#00ffffff] capitalize'>
+								(Flutter Developer)
+							</span>
+						</div>
+					</AccordionTrigger>
+					<AccordionContent>
+						<div className='flex flex-col gap-4'>
+							<div>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									The Complete{' '}
+									<span className='text-[#00ffffff]'>Flutter Development</span>{' '}
+									Bootcamp with <span className='text-[#00ffffff]'>Dart</span> -
+									created in collaboration with the{' '}
+									<span className='text-[#00ffffff]'>Google Flutter team</span>.
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									Covering all the fundamental concepts for Flutter development,
+									this is the{' '}
+									<span className='text-[#00ffffff]'>most comprehensive</span>{' '}
+									Flutter course available online.
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									Author:{' '}
+									<a
+										href='https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/'
+										target='_blank'
+										className='text-[#eeff53] underline text-[20px]'
+									>
+										Dr.Angela Yu
+									</a>
+								</p>
+							</div>
+							<div>
+								<a
+									className='py-1 px-6 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono'
+									href='https://www.udemy.com/course/flutter-bootcamp-with-dart/'
+									target='_blank'
+								>
+									Link
+								</a>
+							</div>
+						</div>
+						<div className='mt-8'>
+							<Image
+								className='block m-auto'
+								src='/education/flutter-course.jpg'
+								alt='udemy course'
 								width={340}
 								height={340}
 							/>
