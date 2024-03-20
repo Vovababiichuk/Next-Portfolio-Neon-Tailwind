@@ -62,7 +62,7 @@ const HeroContent = () => {
         <motion.div variants={slideInFromLeft(1)}>
           <div className="flex items-center gap-10 max-sm:flex-col">
             <Link
-              href="https://drive.google.com/file/d/1D-z2Z6oKH-E52BtKPut8h3wCPIVLOK_Z/view?usp=sharing"
+              href="https://drive.google.com/file/d/1vjz-JZYxsXvtKr0Ttr5rN0p6IsPy7Txl/view?usp=sharing"
               target="_blank"
               className="py-3 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-2xl transition-all duration-300 ease-in-out">
               <div className="flex items-center justify-center gap-2">
