@@ -22,6 +22,96 @@ const AboutAccordionEducation = () => {
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						<div>
+							(2024) - IT Course{' '}
+							<span className='text-[#00ffffff] capitalize'>
+								(Frontend Developer)
+							</span>
+						</div>
+					</AccordionTrigger>
+					<AccordionContent>
+						<div className='flex flex-col gap-4'>
+							<div>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* deep understanding of the main technologies for frontend
+									developers:;
+									<span className='text-[#00ffffff]'>
+										{' '}
+										HTML, CSS, JavaScript;
+									</span>
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* understanding the nuances of
+									<span className='text-[#00ffffff]'>
+										{' '}
+										accessibility, adaptive layout
+									</span>{' '}
+									for any device;
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* use of
+									<span className='text-[#00ffffff]'> JavaScript</span> for
+									<span className='text-[#00ffffff]'>
+										{' '}
+										dynamic and interactive
+									</span>{' '}
+									web pages;
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* testing
+									<span className='text-[#00ffffff]'> React</span> applications;
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* creating
+									<span className='text-[#00ffffff]'> interactive interfaces</span>{' '}
+									in
+									<span className='text-[#00ffffff]'> React;</span>{' '}
+								</p>
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									* creation of a
+									<span className='text-[#00ffffff]'> full-fledged website</span>{' '}
+									- from layout to
+									<span className='text-[#00ffffff]'> uploading to hosting.</span>{' '}
+								</p>
+
+								<p className='leading-7 font-sans text-[19px] mb-4 text-left'>
+									Mentors:{' '}
+									<a
+										href='https://prometheus.org.ua/prometheus-plus/front-end-ciklum/#teachers'
+										target='_blank'
+										className='text-[#eeff53] underline text-[20px]'
+									>
+										The best Ciklum programmers of Expert/Tech Lead levels
+									</a>
+								</p>
+							</div>
+							<div>
+								<a
+									className='py-1 px-6 button-primary text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] text-[20px] transition-all duration-300 ease-in-out font-mono'
+									href='https://prometheus.org.ua/prometheus-plus/front-end-ciklum/'
+									target='_blank'
+								>
+									Link
+								</a>
+							</div>
+						</div>
+						<div>
+							<Image
+								className='mt-8 block m-auto rounded'
+								src='/education/ciklum.png'
+								alt='it-brains'
+								width={340}
+								height={340}
+							/>
+						</div>
+					</AccordionContent>
+				</AccordionItem>
+
+				<AccordionItem
+					className='border-b-[3px] border-[#2f2158]'
+					value='item-2'
+				>
+					<AccordionTrigger className='text-[21px] uppercase text-left'>
+						<div>
 							(2023-2024) - IT School{' '}
 							<span className='text-[#00ffffff] capitalize'>
 								(FullStack Developer)
@@ -89,6 +179,7 @@ const AboutAccordionEducation = () => {
 						</div>
 					</AccordionContent>
 				</AccordionItem>
+
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158] button-'
 					value='item-3'
@@ -141,6 +232,7 @@ const AboutAccordionEducation = () => {
 						</div>
 					</AccordionContent>
 				</AccordionItem>
+
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158]'
 					value='item-1'
@@ -201,6 +293,7 @@ const AboutAccordionEducation = () => {
 						</div>
 					</AccordionContent>
 				</AccordionItem>
+
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158] button-'
 					value='item-4'
