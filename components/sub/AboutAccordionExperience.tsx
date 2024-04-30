@@ -16,7 +16,7 @@ const AboutAccordionExperience = () => {
             (2022-2024) - Freelancing
           </AccordionTrigger>
           <AccordionContent className="text-left flex flex-col gap-4 ">
-            <p className="leading-7 font-sans text-[19px]">Freelancing Across Various Platforms</p>
+            <p className="leading-7 font-sans text-[19px]">Development of custom web applications, both the code base and the visual part. Presentation of business through web applications. Interaction with customers.</p>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem className="border-b-[3px] border-[#2f2158]" value="item-2">

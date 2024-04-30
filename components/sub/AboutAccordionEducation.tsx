@@ -18,7 +18,7 @@ const AboutAccordionEducation = () => {
 			>
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158]'
-					value='item-2'
+					value='item-1'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						<div>
@@ -235,7 +235,7 @@ const AboutAccordionEducation = () => {
 
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158]'
-					value='item-1'
+					value='item-4'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						<div>
@@ -296,7 +296,7 @@ const AboutAccordionEducation = () => {
 
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158] button-'
-					value='item-4'
+					value='item-5'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						(2005-2010) - University{' '}
