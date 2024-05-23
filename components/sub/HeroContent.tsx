@@ -36,7 +36,7 @@ const HeroContent = () => {
             </p>
             <p className="text-8xl max-sm:text-[52px] h-[180px] max-sm:h-[100px] max-sm:leading-[60px]">
               <TypeAnimation
-                sequence={['Frontend Developer', 1000, 'Mobile Developer', 1000, 'Graphic Designer', 1000]}
+                sequence={['Frontend Developer', 1000, 'Graphic Designer', 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
