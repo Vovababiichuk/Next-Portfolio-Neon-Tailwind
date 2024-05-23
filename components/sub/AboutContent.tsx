@@ -11,7 +11,7 @@ const AboutContent = () => {
       <p className="text-white text-center w-full max-w-[930px] m-auto text-[28px] max-sm:text-[24px] leading-9">
         Hello, I&apos;m a{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          creative Frontend & Mobile Developer
+          creative Frontend Developer
         </span>{' '}
         with proficiency in{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -19,7 +19,7 @@ const AboutContent = () => {
         </span>{' '}
         and UI technologies such as{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-        Styled Components, Tailwind CSS, SASS,
+        Tailwind, CSS, SASS, Styled Components
         </span>{' '}
         and others.
         <svg className="mt-[-100px] mb-6 opacity-80 max-sm:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
