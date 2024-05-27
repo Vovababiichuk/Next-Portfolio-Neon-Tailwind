@@ -26,14 +26,14 @@ const AboutContent = () => {
           <path fill="#1e1741" fill-opacity="1" d="M0,224L1440,288L1440,320L0,320Z"></path>
         </svg>
         <span className='max-sm:hidden'>
-          In addition, thanks to my <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">design skills,</span> I can create visually appealing projects.
+        I&rsquo;m passionate about building <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">efficient, scalable,</span> and <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">visually appealing</span> web applications.
           <svg
             className="transform scale-x-[-1] mt-[-130px] mb-6 opacity-80 max-sm:hidden"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320">
             <path fill="#1e1741" fill-opacity="1" d="M0,224L1440,288L1440,320L0,320Z"></path>
           </svg>
-          I like to take on challenges and <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">constantly develop</span> my skills to stay up-to-date with the  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">latest technologies, </span> offering the <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">best solutions</span>, for projects.
+          With a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">strong foundation</span> in <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">front-end development</span> and a <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">keen eye for detail</span>, I offer  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">innovative solutions </span> to complex problems. My goal is to create<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> high-quality code</span>, that not only meets but <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> exceeds</span> client expectations.
         </span>
       </p>
     </div>
