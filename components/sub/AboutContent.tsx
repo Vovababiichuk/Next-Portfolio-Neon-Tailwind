@@ -15,7 +15,7 @@ const AboutContent = () => {
         </span>{' '}
         with proficiency in{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-        Node.js, React.js, Next.js, JavaScript, TypeScript, Flutter/Dart,
+        React.js, JavaScript, TypeScript, Next.js, Node.js, HTML, Flutter/Dart,
         </span>{' '}
         and UI technologies such as{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
