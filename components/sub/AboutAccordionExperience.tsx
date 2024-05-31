@@ -31,9 +31,9 @@ const AboutAccordionExperience = () => {
 									**Web Development:**
 								</span>
 								I have in-depth knowledge of{' '}
-								<em className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
 									HTML, CSS, and JavaScript
-								</em>{' '}
+								</strong>{' '}
 								and am able to create modern, responsive, and high-performance
 								websites and applications.
 							</p>
@@ -42,9 +42,9 @@ const AboutAccordionExperience = () => {
 									**Front-end frameworks:**
 								</span>
 								I have experience with{' '}
-								<em className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
 									React.js, Typescript, Next.js
-								</em>{' '}
+								</strong>{' '}
 								to develop high-performance and scalable web applications.
 							</p>
 							<p>
@@ -52,9 +52,9 @@ const AboutAccordionExperience = () => {
 									**Styling Technologies:**
 								</span>
 								I am well versed in{' '}
-								<em className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
 									Tailwind, CSS, SCSS, Styled Components
-								</em>{' '}
+								</strong>{' '}
 								to create and optimize styles efficiently.
 							</p>
 							<p>
@@ -62,42 +62,87 @@ const AboutAccordionExperience = () => {
 									**Mobile Development:**
 								</span>
 								I have basic skills in building cross-platform mobile apps using
-								<em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> Flutter/Dart and React Native</em>. I intend to develop competencies
-								in this area and create high-quality and efficient mobile
-								applications.
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									{' '}
+									Flutter/Dart and React Native
+								</strong>
+								. I intend to develop competencies in this area and create
+								high-quality and efficient mobile applications.
 							</p>
 							<p>
 								<span className='text-[#00ffffff] capitalize block text-center mb-2'>
 									**Back-end development:**
 								</span>
-								My skills include <em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Node.js, Express.js, PostgreSQL</em> to create
-								powerful back-end solutions.
+								My skills include{' '}
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									Node.js, Express.js, PostgreSQL
+								</strong>{' '}
+								to create powerful back-end solutions.
 							</p>
 							<p>
 								<span className='text-[#00ffffff] capitalize block text-center mb-2'>
 									**User interface libraries:**
 								</span>
-								<em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Shadcn UI, Chakra UI, Material UI, NextUI,</em> Bootstrap and more.
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									Shadcn UI, Chakra UI, Material UI, NextUI,
+								</strong>{' '}
+								Bootstrap and more.
 							</p>
 							<p>
 								<span className='text-[#00ffffff] capitalize block text-center mb-2'>
 									**UI/UX design:**
 								</span>
-								I have a good background in <em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">graphic design</em> so I understand the
-								importance of <em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">design and user experience</em> and can collaborate
-								with designers to achieve great results.
+								I have a good background in{' '}
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									graphic design
+								</strong>{' '}
+								so I understand the importance of{' '}
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									design and user experience
+								</strong>{' '}
+								and can collaborate with designers to achieve great results.
 							</p>
 							<p>
 								<span className='text-[#00ffffff] capitalize block text-center mb-2'>
 									**Version control systems:**
 								</span>
-								I use <em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Git, GitHub, and GitLab</em> to manage code efficiently.
+								I use{' '}
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									Git, GitHub, and GitLab
+								</strong>{' '}
+								to manage code efficiently.
 							</p>
 							<p>
 								<span className='text-[#00ffffff] capitalize block text-center mb-2'>
 									**Design tools:**
 								</span>
-								I am proficient in <em className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Figma, Adobe Illustrator, and Adobe Photoshop</em> to realize design concepts.
+								I am proficient in{' '}
+								<strong className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+									Figma, Adobe Illustrator, and Adobe Photoshop
+								</strong>{' '}
+								to realize design concepts.
+							</p>
+							<p className=''>
+								I am passionate about building{' '}
+								<strong className='text-[#00ffffff]'>
+									efficient, scalable, and visually appealing
+								</strong>{' '}
+								web applications. With a{' '}
+								<strong className='text-[#00ffffff]'>strong foundation</strong>{' '}
+								in front-end development and a{' '}
+								<strong className='text-[#00ffffff]'>
+									keen eye for detail
+								</strong>
+								, I offer
+								{' '}<strong className='text-[#00ffffff]'>
+									innovative solutions
+								</strong>{' '}
+								to complex problems.{' '}
+								<strong className='text-[#00ffffff]'>
+									My goal is to create high-quality code that not only meets but
+									exceeds client expectations
+								</strong>
+								.
 							</p>
 						</div>
 					</AccordionContent>
