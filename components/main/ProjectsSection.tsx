@@ -71,6 +71,16 @@ const projectsData = [
 	},
 	{
 		id: 4,
+		src: '/projects/fundation.png',
+		title: 'Foundation',
+		description: 'Build stunning websites & apps',
+		tag: ['All', 'Web'],
+		tech: [techData.javaScript, techData.sass, techData.html, techData.swiper],
+		gitUrl: 'https://github.com/Vovababiichuk/Foundation-layout-GromCode',
+		previewUrl: 'https://vovababiichuk.github.io/Foundation-layout-GromCode/',
+	},
+	{
+		id: 5,
 		src: '/projects/marketing.png',
 		title: 'Matrketing Agency',
 		description: 'Landing page for a marketing agency.',
@@ -80,7 +90,7 @@ const projectsData = [
 		previewUrl: 'https://vovababiichuk.github.io/Marketing-project/',
 	},
 	{
-		id: 5,
+		id: 6,
 		src: '/projects/porten.png',
 		title: 'Shop PORTEN Wristwatch',
 		description: 'Freelance order. Website layout in Figma and development of a mobile version of the site.',
@@ -97,7 +107,7 @@ const projectsData = [
 			'https://watch-shop-porten.netlify.app/',
 	},
 	{
-		id: 6,
+		id: 7,
 		src: '/projects/dolla.png',
 		title: 'Virtual Banking',
 		description: 'React Landing page for a virtual banking service.',
@@ -115,7 +125,7 @@ const projectsData = [
 			'https://react-website-using-styled-components-and-smooth-scroll-done.vercel.app/',
 	},
 	{
-		id: 7,
+		id: 8,
 		src: '/projects/menu.png',
 		title: 'Menu Ordering',
 		description:
@@ -131,7 +141,7 @@ const projectsData = [
 		previewUrl: 'https://dazzling-gnome-e98345.netlify.app/',
 	},
 	{
-		id: 8,
+		id: 9,
 		src: '/projects/grud.png',
 		title: 'GRUD - Purchase, Spotify',
 		description:
@@ -149,7 +159,22 @@ const projectsData = [
 		previewUrl: 'https://github.com/Vovababiichuk/js-crud-DONE',
 	},
 	{
-		id: 9,
+		id: 10,
+		src: '/projects/draft.png',
+		title: 'JS Array/String Methods',
+		description:
+			'Only Web version. Quickly search for a method and information about it.',
+		tag: ['All', 'Web'],
+		tech: [
+			techData.next,
+			techData.javaScript,
+			techData.tailwind,
+		],
+		gitUrl: 'https://github.com/Vovababiichuk/Next-JavaScript-Array-Methods-Draft-Tailwind',
+		previewUrl: 'https://main--array-methods-draft.netlify.app/',
+	},
+	{
+		id: 11,
 		src: '/projects/dashboard-ui.png',
 		title: 'Responsive Dashboard UI',
 		description: 'Responsive Dashboard UI with Flutter & Dart.',
@@ -160,7 +185,7 @@ const projectsData = [
 		previewUrl: 'https://responsive-dashboard-ui-1c12b.firebaseapp.com/',
 	},
 	{
-		id: 10,
+		id: 12,
 		src: '/projects/flappy.png',
 		title: 'Flappy Bird Game',
 		description: '2D game based on Flutter & Flame.',
@@ -170,7 +195,7 @@ const projectsData = [
 		previewUrl: 'https://docs.flame-engine.org/latest/',
 	},
 	{
-		id: 11,
+		id: 13,
 		src: '/projects/bmi.png',
 		title: 'BMI Calculator',
 		description: 'Simple app that calculates your body mass index (BMI).',
