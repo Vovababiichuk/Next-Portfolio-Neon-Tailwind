@@ -39,6 +39,24 @@ const AboutAccordionCertificates = () => {
 					value='item-2'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
+						Frontend Developer
+					</AccordionTrigger>
+					<AccordionContent>
+						<Image
+							className='mb-4'
+							src='/certificates/frontend.png'
+							alt='certificate'
+							width={550}
+							height={550}
+						/>
+					</AccordionContent>
+				</AccordionItem>
+
+				<AccordionItem
+					className='border-b-[3px] border-[#2f2158] button-'
+					value='item-3'
+				>
+					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						Java Script
 					</AccordionTrigger>
 					<AccordionContent>
@@ -60,7 +78,7 @@ const AboutAccordionCertificates = () => {
 
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158]'
-					value='item-3'
+					value='item-4'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						Markup Developer
@@ -77,7 +95,7 @@ const AboutAccordionCertificates = () => {
 
 				<AccordionItem
 					className='border-b-[3px] border-[#2f2158] button-'
-					value='item-4'
+					value='item-5'
 				>
 					<AccordionTrigger className='text-[21px] uppercase text-left'>
 						English Level
